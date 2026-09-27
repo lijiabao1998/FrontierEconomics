@@ -1,0 +1,27 @@
+{
+  "id": "ECON-008",
+  "domain": "economics",
+  "title": "Labor sorting / monopsony 的識別",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "在worker learning、human capital、firm heterogeneity與search frictions共同存在時，識別sorting與firm wage-setting power，避免用單一markdown proxy過度推論。",
+  "known_result": "2026 NBER工作證明一類dynamic matching models的semiparametric identification，並顯示常用sorting/markdown measures可產生偏差。",
+  "open_gap": "外部有效性、model misspecification、amenities與position-specific skills。",
+  "first_task": "用synthetic dynamic matching data重現naive measures偏差，再用識別策略回復known primitives。",
+  "evaluator": "parameter recovery、coverage、misspecification sensitivity。",
+  "validation_limits": "特定模型下識別不代表所有labor markets；不從估計直接推出政治/政策評價。",
+  "completion_criterion": "在多個合理model variants/資料中仍能穩定識別核心sorting/market-power parameters。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "labor sorting monopsony identification 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Identifying Uncertainty, Learning about Productivity, and Human Capital Acquisition: A Reassessment of Labor Market Sorting and Firm Monopsony Power",
+      "url": "https://www.nber.org/papers/w34973",
+      "kind": "working-paper",
+      "supports": "dynamic sorting與monopsony識別"
+    }
+  ]
+}

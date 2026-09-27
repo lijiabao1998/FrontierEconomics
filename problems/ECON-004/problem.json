@@ -1,0 +1,27 @@
+{
+  "id": "ECON-004",
+  "domain": "economics",
+  "title": "Augmentation vs automation 的勞動結果",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "分離AI提高worker productivity而保留task ownership的augmentation，與直接替代human steps的automation，估計其對wages、hours、employment與skill demand的不同效果。",
+  "known_result": "2026理論工作專門建模不自動化task的AI augmentation；同期task-based adoption資料顯示現階段企業多報augmentation而非headcount reduction。",
+  "open_gap": "classification of use、worker selection、firm reorganization與長期general-equilibrium effects。",
+  "first_task": "定義可重現的augmentation/automation coding rule，對公開survey/task examples做雙人盲標與robustness。",
+  "evaluator": "inter-rater reliability、wage/hours/employment associations、transition probabilities。",
+  "validation_limits": "企業自報用途可能有measurement error；短期augmentation不保證長期不automation。",
+  "completion_criterion": "在多資料來源與時間段中同一分類有預測力，因果部分需獨立識別。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "AI augmentation worker productivity 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Enhancing Worker Productivity Without Automating Tasks: A Different Approach to AI and the Task-Based Model",
+      "url": "https://www.nber.org/papers/w34781",
+      "kind": "working-paper",
+      "supports": "augmentation而非automation的task-based理論"
+    }
+  ]
+}

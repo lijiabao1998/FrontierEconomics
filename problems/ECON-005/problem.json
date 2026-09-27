@@ -1,0 +1,27 @@
+{
+  "id": "ECON-005",
+  "domain": "economics",
+  "title": "跨國 AI adoption gaps 與組織實踐",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "解釋國家間AI adoption差距中有多少來自worker/firm composition、management practice、cost與institutional environment。",
+  "known_result": "2026跨美歐survey研究記錄顯著adoption gaps，並指出firm composition與management encouragement與使用有關；作者未把相關性一律宣稱因果。",
+  "open_gap": "共同measurement、culture/management endogeneity、regulation/cost及product-market differences。",
+  "first_task": "重現公開country adoption rates與reweighting thought experiment；不做政策優劣排名。",
+  "evaluator": "composition-adjusted gaps、sensitivity、time trend。",
+  "validation_limits": "國家差異不能直接歸因單一制度；survey wording/coverage要一致。",
+  "completion_criterion": "在harmonized repeated surveys中解釋穩定份額的gap，並清楚分出描述與因果。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "AI adoption Europe US gap 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Mind the Gap: AI Adoption in Europe and the U.S.",
+      "url": "https://www.nber.org/papers/w34995",
+      "kind": "working-paper",
+      "supports": "跨國AI adoption、composition與management practices"
+    }
+  ]
+}

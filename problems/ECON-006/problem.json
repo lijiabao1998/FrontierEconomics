@@ -1,0 +1,27 @@
+{
+  "id": "ECON-006",
+  "domain": "economics",
+  "title": "如何測量 firms' AI effort 與 treatment intensity",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "比較patents、job postings、vendor spend、task use、internal capability與investor text等AI measures實際測到什麼，建立可對應研究問題的measurement map。",
+  "known_result": "2026 NBER review指出不同AI datasets捕捉invention vs use、internal capability vs outsourcing、realized activity vs perception，因而可導致不同結論。",
+  "open_gap": "latent treatment definition、measurement error、comparability across time/firms與new tools rapidly changing。",
+  "first_task": "建一個10-company synthetic/public example，對3種AI proxies做rank disagreement與known-case audit。",
+  "evaluator": "construct validity、test-retest stability、predictive validity、disagreement matrix。",
+  "validation_limits": "沒有單一proxy天然是truth；proxy相關不代表相同treatment。",
+  "completion_criterion": "針對明確estimand選定測量能跨資料來源驗證，並量化measurement-error對效果估計的影響。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "Understanding Firms AI Efforts Economic Impact 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Understanding Firms' AI Efforts and Their Economic Impact",
+      "url": "https://www.nber.org/papers/w35123",
+      "kind": "working-paper",
+      "supports": "firm AI measurement framework與資料來源差異"
+    }
+  ]
+}

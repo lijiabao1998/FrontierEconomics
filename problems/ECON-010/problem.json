@@ -1,0 +1,27 @@
+{
+  "id": "ECON-010",
+  "domain": "economics",
+  "title": "AI、market structure 與 competition dynamics",
+  "status": "OPEN",
+  "priority": "C",
+  "checked_on": "2026-09-28",
+  "statement": "研究AI upstream market power、compute/model access與downstream adoption如何影響entry、prices、factor returns與industry concentration，區分理論機制與實證事實。",
+  "known_result": "2026 economics volume提出AI competition/welfare研究議程與一般均衡模型；firm-level AI measurement研究也指出competition是待進一步研究的效果面向。",
+  "open_gap": "市場定義、AI input prices、vertical integration、dynamic entry與endogenous innovation。",
+  "first_task": "建立簡單two-sector adoption model，重現不同AI input markups對adoption/entry的comparative statics；不做政策排序。",
+  "evaluator": "equilibrium consistency、sensitivity、mapping to observable moments。",
+  "validation_limits": "理論welfare結果依模型假設；不能直接套到特定國家/公司。",
+  "completion_criterion": "有可被firm/market data檢驗的獨特預測，並在獨立資料中區分至少兩種mechanisms。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "Artificial Intelligence Competition Welfare 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence, Competition, and Welfare",
+      "url": "https://www.nber.org/books-and-chapters/economics-transformative-ai/artificial-intelligence-competition-and-welfare",
+      "kind": "chapter",
+      "supports": "AI market power、adoption與competition的一般均衡研究議程"
+    }
+  ]
+}

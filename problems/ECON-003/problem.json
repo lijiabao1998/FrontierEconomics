@@ -1,0 +1,27 @@
+{
+  "id": "ECON-003",
+  "domain": "economics",
+  "title": "Task chaining、job redesign 與 coordination costs",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "AI可連續執行多步驟時，firm如何重新定義tasks/jobs，何時chain帶來非線性productivity gain或coordination loss。",
+  "known_result": "2026 task-chaining theory把AI執行步驟組成chains，預測AI-executed steps adjacency、job structure與nonlinear productivity effects。",
+  "open_gap": "實際workflow chain如何測量、組織採用內生性與跨職業可比性。",
+  "first_task": "用公開task taxonomy建立小型workflow graph，重現理論comparative statics；列可用微觀data的可檢驗moments。",
+  "evaluator": "model fit、out-of-sample task execution、alternative coordination-cost assumptions。",
+  "validation_limits": "理論可產生現象不等於現象由該機制造成。",
+  "completion_criterion": "在独立task/firm data中驗證chain-specific預測，並能拒絕至少一個無chain替代模型。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "Chaining Tasks Redefining Work AI 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Chaining Tasks, Redefining Work: A Theory of AI Automation",
+      "url": "https://www.nber.org/papers/w34859",
+      "kind": "working-paper",
+      "supports": "AI chaining、task/job redesign理論與經驗預測"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "ECON-001",
+  "domain": "economics",
+  "title": "AI 的 firm-level 因果生產力效果",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "識別AI adoption/investment/integration對firm productivity、revenue、cost與employment的因果影響，區分selection into adoption。",
+  "known_result": "2026 corporate-executive survey與firm microdata研究報告AI使用、productivity與employment關聯，但採用本身高度heterogeneous且許多結果仍是相關性或自報。",
+  "open_gap": "如何找到可信外生variation、長期organizational adjustment與quality/output measurement。",
+  "first_task": "用公開aggregate/firm-survey summary建立DAG與estimand；重現一個descriptive association，再設計可被未來資料檢驗的identification strategy。",
+  "evaluator": "pre-trend/placebo、alternative outcomes、heterogeneity、measurement error sensitivity。",
+  "validation_limits": "AI採用與高productivity相關不等於AI造成productivity；自報time savings也不等同TFP。",
+  "completion_criterion": "同一estimand在可信自然實驗/experiment或多種互補識別下得到穩定effect，並有外部樣本驗證。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "AI productivity workforce corporate executives 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Artificial Intelligence, Productivity, and the Workforce: Evidence from Corporate Executives",
+      "url": "https://www.nber.org/papers/w34984",
+      "kind": "working-paper",
+      "supports": "AI採用、firm productivity與workforce的2026調查證據"
+    }
+  ]
+}

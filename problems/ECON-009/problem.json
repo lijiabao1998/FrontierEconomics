@@ -1,0 +1,27 @@
+{
+  "id": "ECON-009",
+  "domain": "economics",
+  "title": "AI 經濟預測的 calibration 與 realized outcomes",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "建立可持續更新的forecast ledger，區分AI capability forecasts與GDP/employment等economic conditional forecasts，並用realized outcomes評估calibration。",
+  "known_result": "2026 NBER收集economists、AI employees、forecasters與public對AI經濟效果的分布式預測，顯示群體間與條件情境下存在明顯異質性。",
+  "open_gap": "長期outcome未實現、scenario definition drift、forecaster selection與proper scoring。",
+  "first_task": "抽取公開forecast quantiles與scenario definitions，建立不改寫原預測的versioned ledger及未來scoring規則。",
+  "evaluator": "Brier/log/CRPS或interval coverage、calibration-by-horizon、scenario drift audit。",
+  "validation_limits": "還沒到forecast horizon不能判對錯；群體median不是probability model。",
+  "completion_criterion": "隨時間累積足夠resolved forecasts後，能比較method calibration而不回溯改題。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "Forecasting Economic Effects of AI 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "Forecasting the Economic Effects of AI",
+      "url": "https://www.nber.org/papers/w35046",
+      "kind": "working-paper",
+      "supports": "多群體AI經濟預測與不確定性來源"
+    }
+  ]
+}

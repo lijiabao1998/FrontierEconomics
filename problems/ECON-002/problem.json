@@ -1,0 +1,27 @@
+{
+  "id": "ECON-002",
+  "domain": "economics",
+  "title": "AI 擴散的 firm/function/task 微結構",
+  "status": "OPEN",
+  "priority": "A",
+  "checked_on": "2026-09-28",
+  "statement": "解釋AI adoption為何在firm、business function與worker task三層不同步，以及這些層次如何共同影響產出與就業。",
+  "known_result": "2026 BTOS AI supplement顯示firm-wide、function-level與task-level adoption有明顯差異，且許多adopters只在少數functions/tasks使用。",
+  "open_gap": "top-down vs bottom-up diffusion、organizational complementarities、measurement consistency與dynamic adoption paths。",
+  "first_task": "重現公開summary的三層adoption矩陣，定義firm/function/task intensity並做measurement sensitivity。",
+  "evaluator": "transition rates、integration breadth、performance association、employment outcome heterogeneity。",
+  "validation_limits": "同時使用≠整合深度；association with firm performance不代表causal。",
+  "completion_criterion": "建立能預測held-out adoption transitions的模型，並由新一輪BTOS或其他國家資料外驗。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "microstructure AI diffusion firms business functions worker tasks 2026"
+  ],
+  "sources": [
+    {
+      "title": "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks",
+      "url": "https://www.nber.org/papers/w35141",
+      "kind": "working-paper",
+      "supports": "2026 Census/BTOS的三層AI adoption measurement"
+    }
+  ]
+}

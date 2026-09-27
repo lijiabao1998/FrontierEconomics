@@ -1,0 +1,27 @@
+{
+  "id": "ECON-007",
+  "domain": "economics",
+  "title": "Firm wage dynamics 與 productivity shock pass-through",
+  "status": "OPEN",
+  "priority": "B",
+  "checked_on": "2026-09-28",
+  "statement": "在search frictions、firm growth與dynamic wage contracts下，識別永久productivity shocks如何傳導至wages，以及pass-through如何隨firm lifecycle變化。",
+  "known_result": "2026 NBER theory把wage posting與firm dynamics整合，產生wage-growth、lifecycle與shock pass-through預測。",
+  "open_gap": "模型識別、sorting/search frictions、amenities與human capital的替代解釋。",
+  "first_task": "重現理論一個簡化numerical case，對比無firm-dynamics baseline；列3個可被panel data拒絕的預測。",
+  "evaluator": "comparative statics、out-of-sample moments、alternative model fit。",
+  "validation_limits": "模型能fit stylized facts不代表唯一機制；政策含義不在本題排序。",
+  "completion_criterion": "關鍵動態moment在獨立linked employer-worker data中支持且替代模型不能同等解釋。",
+  "screening_note": "2026-09-28 初始有界文獻篩查；working papers與估計會更新。每輪重查版本、資料與反證。",
+  "screening_queries": [
+    "Theory of Firm Wage Dynamics 2026 NBER"
+  ],
+  "sources": [
+    {
+      "title": "A Theory of Firm Wage Dynamics",
+      "url": "https://www.nber.org/papers/w35554",
+      "kind": "working-paper",
+      "supports": "firm growth、wage lifecycle與productivity shock pass-through理論"
+    }
+  ]
+}
