@@ -17,4 +17,4 @@
 | ECON-009 | AI 經濟預測的 calibration 與realized outcomes | B |
 | ECON-010 | AI、market structure 與competition dynamics | C |
 
-這批10題刻意聚焦2026最活躍的AI economics資料與理論；後續批次可再擴展宏觀、產業組織、城市、貿易等。每輪依治理 f40beb161b6c87201d8082ecbc29c7e0b3eaa402 fresh search。描述性估計、因果估計、結構模型與政策含義分開。
+這批10題刻意聚焦2026最活躍的AI economics資料與理論；後續批次可再擴展宏觀、產業組織、城市、貿易等。每輪依治理 9c3ae2dbaa1c814f3ef451c041dedfe3b77d926f fresh search。描述性估計、因果估計、結構模型與政策含義分開。
