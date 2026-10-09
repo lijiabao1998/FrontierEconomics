@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "comparisons": [
+    {
+      "numerator": "Information",
+      "denominator": "Finance and Insurance",
+      "difference_pp_exact": "29/5",
+      "difference_pp_decimal": "5.800000000000",
+      "rate_ratio_exact": "397/339",
+      "rate_ratio_12dp": "1.171091445428",
+      "rounding_only_difference_pp": [
+        "5.700000000000",
+        "5.900000000000"
+      ],
+      "rounding_only_ratio": [
+        "1.167893961708",
+        "1.174298375185"
+      ]
+    },
+    {
+      "numerator": "Information",
+      "denominator": "National",
+      "difference_pp_exact": "199/10",
+      "difference_pp_decimal": "19.900000000000",
+      "rate_ratio_exact": "397/198",
+      "rate_ratio_12dp": "2.005050505051",
+      "rounding_only_difference_pp": [
+        "19.800000000000",
+        "20.000000000000"
+      ],
+      "rounding_only_ratio": [
+        "1.997481108312",
+        "2.012658227848"
+      ]
+    },
+    {
+      "numerator": "Finance and Insurance",
+      "denominator": "National",
+      "difference_pp_exact": "141/10",
+      "difference_pp_decimal": "14.100000000000",
+      "rate_ratio_exact": "113/66",
+      "rate_ratio_12dp": "1.712121212121",
+      "rounding_only_difference_pp": [
+        "14.000000000000",
+        "14.200000000000"
+      ],
+      "rounding_only_ratio": [
+        "1.705289672544",
+        "1.718987341772"
+      ]
+    }
+  ],
+  "source_independently_read": "Census article section AI Trends Across Sectors first bullet, accessed2026-10-09; three cells and November17,2025 wording break confirmed",
+  "limits": "Arithmetic of published rounded survey estimates only; assumed rounding envelope is not sampling CI; overlapping national domain; no unrounded microdata, weights, SEs, productivity outcome or causal identification verified. No article text copied."
+}

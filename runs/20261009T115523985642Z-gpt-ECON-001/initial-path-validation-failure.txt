@@ -1,0 +1,1 @@
+BLOCKED: problems/ECON-001/identification-plan.md: unregistered path (GATE_CONTRACT.md section3.1). Corrected by moving file under existing experiments/ directory; contract unchanged.
