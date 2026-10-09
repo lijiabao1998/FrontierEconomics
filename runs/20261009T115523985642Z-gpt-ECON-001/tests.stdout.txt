@@ -1,0 +1,18 @@
+test_deliberately_wrong_arithmetic (__main__.BaselineTests.test_deliberately_wrong_arithmetic) ... ok
+test_deliberately_wrong_ratio (__main__.BaselineTests.test_deliberately_wrong_ratio) ... ok
+test_duplicate_cell (__main__.BaselineTests.test_duplicate_cell) ... ok
+test_equal_rate_boundary (__main__.BaselineTests.test_equal_rate_boundary) ... ok
+test_invalid_rates (__main__.BaselineTests.test_invalid_rates) ... ok
+test_missing_cell (__main__.BaselineTests.test_missing_cell) ... ok
+test_positive_decimal (__main__.BaselineTests.test_positive_decimal) ... ok
+test_source_corruption (__main__.BaselineTests.test_source_corruption) ... ok
+test_valid_frozen_data (__main__.BaselineTests.test_valid_frozen_data) ... ok
+test_wrong_date (__main__.BaselineTests.test_wrong_date) ... ok
+test_wrong_measure (__main__.BaselineTests.test_wrong_measure) ... ok
+test_wrong_units (__main__.BaselineTests.test_wrong_units) ... ok
+test_zero_denominator_boundary (__main__.BaselineTests.test_zero_denominator_boundary) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.003s
+
+OK

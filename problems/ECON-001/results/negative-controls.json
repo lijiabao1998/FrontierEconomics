@@ -1,0 +1,14 @@
+[
+  {
+    "case": "result_difference",
+    "rejected": true,
+    "exit_code": 1,
+    "reason": "AssertionError"
+  },
+  {
+    "case": "source_rate",
+    "rejected": true,
+    "exit_code": 1,
+    "reason": "AssertionError"
+  }
+]

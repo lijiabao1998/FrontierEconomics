@@ -1,0 +1,157 @@
+{
+  "round_id": "20261009T115523985642Z-gpt-ECON-001",
+  "problem_id": "ECON-001",
+  "agent": "gpt",
+  "branch": "gpt/ECON-001-btos-description-20261009t115523985642z",
+  "base_sha": "92c11fc0638260873884077a81454de676aa1807",
+  "started_at": "2026-10-09T11:55:23.985642+00:00",
+  "state": "FINISHED",
+  "acceptance": "Frozen frozen-spec.json SHA256 dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c; A1-A5 specify exact-decimal description, preserved source hash, no statistical/causal inference, positive/negative/boundary/tamper controls, DAG and future identification plan.",
+  "not_done": "At admission no descriptive calculations run. No causal productivity estimation, survey variance estimation, pretrend test, placebo test, external microdata validation or parent completion.",
+  "budget": {
+    "wall_minutes": 30,
+    "usd": 0,
+    "max_trials": 100,
+    "expected": "<20 deterministic calculation/control cases; one CPU process; no packages, paid API, GPU or extra worker."
+  },
+  "preflight": {
+    "checked_at": "2026-10-09T11:57:55.307019+00:00",
+    "verdict": "PARTIAL_PROGRESS",
+    "queries": [
+      {
+        "category": "general",
+        "query": "Census BTOS artificial intelligence business use 2024 2026 productivity survey",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:27+00:00",
+        "outcome": "Official May 2026 summary and November 2025 wording break located."
+      },
+      {
+        "category": "discipline",
+        "query": "site.nber.org w34984 Artificial Intelligence Productivity Workforce corporate executives",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:27+00:00",
+        "outcome": "NBER working-paper landing result located; direct open failed twice, so full text not verified."
+      },
+      {
+        "category": "solution",
+        "query": "Census artificial intelligence adoption firm productivity causal identification solved 2026",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:27+00:00",
+        "outcome": "Sector-specific field experiments and observational papers located; no verification closing the broad parent; no novelty claim."
+      },
+      {
+        "category": "criticism",
+        "query": "Census BTOS AI use measurement change correction erratum 2025 2026",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:27+00:00",
+        "outcome": "Official change notice found; no formal erratum found in bounded results; not proof none exists."
+      },
+      {
+        "category": "solution",
+        "query": "Census artificial intelligence adoption firm productivity causal identification natural experiment",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:49+00:00",
+        "outcome": "Undated perspective located industrial-AI and exposure studies. Their scope does not identify a causal effect from these three cells."
+      },
+      {
+        "category": "criticism",
+        "query": "\"Artificial Intelligence, Productivity, and the Workforce\" correction erratum retraction",
+        "engine": "OpenAI web search",
+        "searched_at": "2026-10-09T11:55:49+00:00",
+        "outcome": "No relevant correction/retraction identified in returned bounded results; direct NBER access failed."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Large Firms With at Least 20 Employees Biggest AI Users",
+        "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+        "kind": "primary",
+        "supports": "Three exact May 3, 2026 rounded aggregate AI-use rates and changed question scope.",
+        "version": "Published 2026-05-26; accessed 2026-10-09",
+        "read_extent": "Full substantive article text read. No linked chart or full underlying table reused.",
+        "read_at": "2026-10-09T11:57:55.307019+00:00",
+        "license": "Read-only official source; retained only numeric public facts and original summaries, no article/figures redistributed. Public factual data extract; no separate license asserted for third-party material."
+      },
+      {
+        "title": "BTOS AI Core Question Updates",
+        "url": "https://www.census.gov/hfp/btos/downloads/AI%20Question%20Wording%20Updates.pdf",
+        "kind": "primary",
+        "supports": "November 17, 2025 definition break; no homogeneous before/after comparison.",
+        "version": "2025-12-03 notice, 4 pages",
+        "read_extent": "Page 1 wording statement; graphics not digitized.",
+        "read_at": "2026-10-09T11:57:55.307019+00:00",
+        "license": "Read-only official source; retained only numeric public facts and original summaries, no article/figures redistributed. Public factual data extract; no separate license asserted for third-party material."
+      },
+      {
+        "title": "Business Trends and Outlook Survey Methodology",
+        "url": "https://www.census.gov/hfp/btos/downloads/BTOS%20Methodology%20Final%20v4.pdf",
+        "kind": "primary",
+        "supports": "Coverage exclusions, response denominator, nonresponse weighting, jackknife SE and suppression caveats.",
+        "version": "v4, 2023-10-05",
+        "read_extent": "All seven pages extracted text; not verified as the final 2026 revision.",
+        "read_at": "2026-10-09T11:57:55.307019+00:00",
+        "license": "Read-only official source; retained only numeric public facts and original summaries, no article/figures redistributed. Public factual data extract; no separate license asserted for third-party material."
+      },
+      {
+        "title": "AI Exposure and Adoption Among U.S. Firms",
+        "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-61.html",
+        "kind": "primary",
+        "supports": "Exposure and actual adoption are distinct; association does not identify productivity effects.",
+        "version": "CES-26-61, September 2026; landing page revised 2026-09-28",
+        "read_extent": "Abstract-only; full working paper NOT_READ.",
+        "read_at": "2026-10-09T11:57:55.307019+00:00",
+        "license": "Read-only official source; retained only numeric public facts and original summaries, no article/figures redistributed. Public factual data extract; no separate license asserted for third-party material."
+      },
+      {
+        "title": "Business Trends and Outlook Survey (BTOS)",
+        "url": "https://www.census.gov/programs-surveys/btos.html",
+        "kind": "primary",
+        "supports": "Current program coverage and rotating business panels; summary not a microdata panel.",
+        "version": "Live program page accessed 2026-10-09",
+        "read_extent": "Substantive program description read.",
+        "read_at": "2026-10-09T11:57:55.307019+00:00",
+        "license": "Read-only official source; retained only numeric public facts and original summaries, no article/figures redistributed. Public factual data extract; no separate license asserted for third-party material."
+      }
+    ],
+    "limitations": "Bounded public search, not exhaustive novelty/retraction audit. NBER landing opens failed; no NBER full text or data reused. Three-cell official extract selected for tractability, not a full-sector estimate. Current full table/SE/covariance/microdata unavailable to this run. Census copyright-policy URL could not be opened; only numeric facts and original summaries retained.",
+    "scope_comparison": "Descriptive sector-use contrast and design-only future identification are a first-task subset; neither identifies firm productivity effects nor meets parent completion criterion.",
+    "baseline": "Exact published rounded percentages compared with decimal subtraction/division; no fitted model.",
+    "sources_read": true,
+    "scope_compared": true,
+    "retractions_checked": true,
+    "licenses_checked": true,
+    "safety_checked": true,
+    "baseline_identified": true,
+    "acceptance_frozen": true
+  },
+  "artifacts": [
+    "problems/ECON-001/experiments/btos_baseline.py",
+    "problems/ECON-001/experiments/identification-plan.md",
+    "problems/ECON-001/experiments/independent_review/test_negative_controls.py",
+    "problems/ECON-001/experiments/independent_review/verify_economics.py",
+    "problems/ECON-001/experiments/test_btos_baseline.py",
+    "problems/ECON-001/results/btos-baseline.json",
+    "problems/ECON-001/results/independent-full-review.json",
+    "problems/ECON-001/results/negative-controls.json",
+    "runs/20261009T115523985642Z-gpt-ECON-001/REPORT.md",
+    "runs/20261009T115523985642Z-gpt-ECON-001/analysis.stdout.txt",
+    "runs/20261009T115523985642Z-gpt-ECON-001/environment.json",
+    "runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json",
+    "runs/20261009T115523985642Z-gpt-ECON-001/initial-path-validation-failure.txt",
+    "runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+    "runs/20261009T115523985642Z-gpt-ECON-001/tests.stdout.txt"
+  ],
+  "result": {
+    "classification": "DESCRIPTIVE_ARITHMETIC_VERIFIED_IDENTIFICATION_UNESTABLISHED",
+    "parent_status": "OPEN",
+    "causal_effect": "NOT_ESTIMATED",
+    "design_proposal_independent_review": "NOT_RUN",
+    "author_tests": 13,
+    "independent_tampering_controls": 2,
+    "new_stochastic_trials": 0,
+    "publication": "PENDING"
+  },
+  "scope_claim": "https://github.com/lijiabao1998/FrontierEconomics/issues/3",
+  "admitted_at": "2026-10-09T11:57:55.413489+00:00",
+  "finished_at": "2026-10-09T12:02:35.766837+00:00"
+}
