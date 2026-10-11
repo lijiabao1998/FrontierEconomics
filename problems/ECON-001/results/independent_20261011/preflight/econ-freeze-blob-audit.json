@@ -1,0 +1,139 @@
+{
+  "protocol_commit": "2b5af03b608b8afb3400ea57daac1b8b38fc72d6",
+  "source_base": "7697744793494ef6b0d42385dc8e1d51bb8f4d0d",
+  "all_input_bytes_match": true,
+  "inputs": [
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/.gitattributes",
+      "expected_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "committed_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/admission_guard.py",
+      "expected_sha256": "bdb2e5adc78e3746d3d5969a767ad31e452e97adddf1af2fbed1cb7c4ff3eace",
+      "committed_sha256": "bdb2e5adc78e3746d3d5969a767ad31e452e97adddf1af2fbed1cb7c4ff3eace",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/PROTOCOL.json",
+      "expected_sha256": "7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92",
+      "committed_sha256": "7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/PROTOCOL_REVIEW.txt",
+      "expected_sha256": "b2e31f7417732f980ff04a9a8d31f98f102ee4a08198e51094f8e8b4fc32717b",
+      "committed_sha256": "b2e31f7417732f980ff04a9a8d31f98f102ee4a08198e51094f8e8b4fc32717b",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/AGENTS.md",
+      "expected_sha256": "df6549c8937045eb6b35bc4e447684436c623e83953ab39a9edf38f9f333fa66",
+      "committed_sha256": "df6549c8937045eb6b35bc4e447684436c623e83953ab39a9edf38f9f333fa66",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/GOVERNANCE.lock.json",
+      "expected_sha256": "f19ba2a40df880a4f3c0808ad32219830a3bff2b769fa666d3bc91e45dd24d8b",
+      "committed_sha256": "f19ba2a40df880a4f3c0808ad32219830a3bff2b769fa666d3bc91e45dd24d8b",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/btos_baseline.py",
+      "expected_sha256": "5e036c58ea742f1770502cf528eb4520efd47dd7453ade661a5d8e8cf1b90c1f",
+      "committed_sha256": "5e036c58ea742f1770502cf528eb4520efd47dd7453ade661a5d8e8cf1b90c1f",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/test_negative_controls.py",
+      "expected_sha256": "17a9f70a98ed4e1da2bd106902fcacd16fcc5443b4540bdc8efedebee48c0255",
+      "committed_sha256": "17a9f70a98ed4e1da2bd106902fcacd16fcc5443b4540bdc8efedebee48c0255",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/verify_economics.py",
+      "expected_sha256": "ab0c9ac1769f3cd628c1cd0ce5de45686380df1c60f8533c671b5a00fda54526",
+      "committed_sha256": "ab0c9ac1769f3cd628c1cd0ce5de45686380df1c60f8533c671b5a00fda54526",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/problem.json",
+      "expected_sha256": "da4a012a60777a5ca538b10978bb91fca1883fab404c8b80b9ec3efc33c173a2",
+      "committed_sha256": "da4a012a60777a5ca538b10978bb91fca1883fab404c8b80b9ec3efc33c173a2",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/results/btos-baseline.json",
+      "expected_sha256": "17b5a7d038c6837027b3de0c8cda88a10bfbaaf5c7251192abc04b0353d55565",
+      "committed_sha256": "17b5a7d038c6837027b3de0c8cda88a10bfbaaf5c7251192abc04b0353d55565",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/public-claim-readback.json",
+      "expected_sha256": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b",
+      "committed_sha256": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/README.md",
+      "expected_sha256": "35f22b03692b526da51c6ad65ab730a1e3e80176ab34da68c430cf908fa47d04",
+      "committed_sha256": "35f22b03692b526da51c6ad65ab730a1e3e80176ab34da68c430cf908fa47d04",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json",
+      "expected_sha256": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c",
+      "committed_sha256": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/round.json",
+      "expected_sha256": "44a5f1202c1893f396909bfa57f20fe744c28d89880adc5cf92d29f5e24f01bf",
+      "committed_sha256": "44a5f1202c1893f396909bfa57f20fe744c28d89880adc5cf92d29f5e24f01bf",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+      "expected_sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+      "committed_sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/STATUS.md",
+      "expected_sha256": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff",
+      "committed_sha256": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/VALIDATION.md",
+      "expected_sha256": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929",
+      "committed_sha256": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/run_bounded.py",
+      "expected_sha256": "ed0a14659c7e5c1f9ba0d12890a250dd94d7a13b37c41c1b26b8a79a6d70c442",
+      "committed_sha256": "ed0a14659c7e5c1f9ba0d12890a250dd94d7a13b37c41c1b26b8a79a6d70c442",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/SOURCE_MANIFEST.json",
+      "expected_sha256": "d9a97f360f5323347ee69ec38e5fed87143045d0494fb78b810b69641d1700ef",
+      "committed_sha256": "d9a97f360f5323347ee69ec38e5fed87143045d0494fb78b810b69641d1700ef",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/verify.py",
+      "expected_sha256": "902346e04e759ef274a26888a08462ec13aa5c1ec3a4488cd8f7d05e193df71b",
+      "committed_sha256": "902346e04e759ef274a26888a08462ec13aa5c1ec3a4488cd8f7d05e193df71b",
+      "matches": true
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json",
+      "expected_sha256": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4",
+      "committed_sha256": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4",
+      "matches": true
+    }
+  ]
+}

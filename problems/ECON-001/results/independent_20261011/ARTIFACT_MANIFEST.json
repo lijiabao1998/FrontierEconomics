@@ -1,0 +1,510 @@
+{
+  "files": [
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/.gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/admission_guard.py",
+      "bytes": 1736,
+      "sha256": "bdb2e5adc78e3746d3d5969a767ad31e452e97adddf1af2fbed1cb7c4ff3eace"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/PROTOCOL.json",
+      "bytes": 9723,
+      "sha256": "7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/PROTOCOL_REVIEW.txt",
+      "bytes": 432,
+      "sha256": "b2e31f7417732f980ff04a9a8d31f98f102ee4a08198e51094f8e8b4fc32717b"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/AGENTS.md",
+      "bytes": 498,
+      "sha256": "df6549c8937045eb6b35bc4e447684436c623e83953ab39a9edf38f9f333fa66"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/GOVERNANCE.lock.json",
+      "bytes": 132,
+      "sha256": "f19ba2a40df880a4f3c0808ad32219830a3bff2b769fa666d3bc91e45dd24d8b"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/btos_baseline.py",
+      "bytes": 5155,
+      "sha256": "5e036c58ea742f1770502cf528eb4520efd47dd7453ade661a5d8e8cf1b90c1f"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/test_negative_controls.py",
+      "bytes": 988,
+      "sha256": "17a9f70a98ed4e1da2bd106902fcacd16fcc5443b4540bdc8efedebee48c0255"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/verify_economics.py",
+      "bytes": 3232,
+      "sha256": "ab0c9ac1769f3cd628c1cd0ce5de45686380df1c60f8533c671b5a00fda54526"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/problem.json",
+      "bytes": 1750,
+      "sha256": "da4a012a60777a5ca538b10978bb91fca1883fab404c8b80b9ec3efc33c173a2"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/results/btos-baseline.json",
+      "bytes": 1366,
+      "sha256": "17b5a7d038c6837027b3de0c8cda88a10bfbaaf5c7251192abc04b0353d55565"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/public-claim-readback.json",
+      "bytes": 5759,
+      "sha256": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/README.md",
+      "bytes": 1278,
+      "sha256": "35f22b03692b526da51c6ad65ab730a1e3e80176ab34da68c430cf908fa47d04"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json",
+      "bytes": 5164,
+      "sha256": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/round.json",
+      "bytes": 9502,
+      "sha256": "44a5f1202c1893f396909bfa57f20fe744c28d89880adc5cf92d29f5e24f01bf"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+      "bytes": 1283,
+      "sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/STATUS.md",
+      "bytes": 545,
+      "sha256": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/reference/VALIDATION.md",
+      "bytes": 537,
+      "sha256": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/run_bounded.py",
+      "bytes": 5589,
+      "sha256": "ca43afe0e3cfda5f615fe2f05f5d3d00782a16999e48e2b5ced8db72fb8e86a6"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/SOURCE_MANIFEST.json",
+      "bytes": 3219,
+      "sha256": "d9a97f360f5323347ee69ec38e5fed87143045d0494fb78b810b69641d1700ef"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/verify.py",
+      "bytes": 9104,
+      "sha256": "902346e04e759ef274a26888a08462ec13aa5c1ec3a4488cd8f7d05e193df71b"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json",
+      "bytes": 24936,
+      "sha256": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/.gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/execution.json",
+      "bytes": 286,
+      "sha256": "f5fc5b4ff022dacceabb46e1c804b7a0cf06e0caaa30a727cc55ea2709de284c"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/launch.json",
+      "bytes": 1189,
+      "sha256": "e4eed3e457fc597bb4cca1296576f05552a1a1e6595d74ae8221699041677744"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/normal-existing.execution.json",
+      "bytes": 1131,
+      "sha256": "28e944d02764b1172463c2851c4ce0accbe46c13ca2ad114bdb6ed94f9c36ada"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/normal-existing.stderr.txt",
+      "bytes": 98,
+      "sha256": "8531d820d22f5cdadd3f00c00d592e13c211ecf2ec0fe113c1931848a5ccc97d"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/normal-existing.stdout.txt",
+      "bytes": 1873,
+      "sha256": "86d64eb46ef58d47d1e25fb7a3e314f2d162d8a17ce9c154a8a5962e7730ad8b"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/normal.json",
+      "bytes": 1415,
+      "sha256": "23e78c69606549fa2837fb534b42e07602f7b66d2921a98535689b027fe939eb"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-hi-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "b969bb3a399c51efd69a22e5d0a33a4b1b2d294b6f2078895bcdc84326e156d8"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-hi-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-hi.json",
+      "bytes": 1415,
+      "sha256": "54aafb268b8b3f4a9486b48e3a8d6a360b8ddf50da6c4cad52a216cac31801b4"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-lo-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "2f142a1d7b1e9d305aa27748491ce11f35a8c13af6d6421b00ae485d557579aa"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-lo-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-difference-lo.json",
+      "bytes": 1415,
+      "sha256": "79cde7bf77445bf589cd634ffa83119681b380ae303a3039c83dcc5018b1198b"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-hi-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "6e871c5db3f3563eac9890fe4b419f913f9ccf189935ee8312bc597c52ed9a19"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-hi-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-hi.json",
+      "bytes": 1415,
+      "sha256": "36c1efc9f97475e243c88429d188546c2900051c839fe664d39f9cfc98e60387"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-lo-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "80681a5f48b66abcd478e3dd12a3c0bac7bd20987e16c428f1ac36d34793b7d1"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-lo-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p0-ratio-lo.json",
+      "bytes": 1415,
+      "sha256": "606057cb862e251ed6de459f10a5eba6a9c14d05f5deddbd9bc559083045c46e"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-hi-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "eddb1448993d9917f4592d4131259d571dfff6046a6b80e5ca5cdcbf2764565a"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-hi-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-hi.json",
+      "bytes": 1415,
+      "sha256": "2729b001565f2af340498f25302e75c54394df27d2b86507056eb47d414b2996"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-lo-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "111669cc7c59bc1bf13de41c3453601ea2a09da1099f6415a42b72508b82535e"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-lo-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-difference-lo.json",
+      "bytes": 1415,
+      "sha256": "741a98161710707e362b9bc3698ef64fe4871c5c10733b69515d310acea317a0"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-hi-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "8a0d508b084878e1439806e5b4d013cb9fe40324d8ca457ab9a245a7f31c2c6e"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-hi-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-hi.json",
+      "bytes": 1415,
+      "sha256": "341c8002d123dc7df4dd5deebb21a71ba8c9b1215754170d201abe846bec596a"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-lo-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "f531d61d9ba2be7e0409174df8959e6c16cfd655a3e874a60fca5ca32ef51593"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-lo-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p1-ratio-lo.json",
+      "bytes": 1415,
+      "sha256": "aa3ce3809adc20be2f500a242922419f5c6e4af8c5dbeb0c5eecbc56c415d123"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-hi-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "3e35267e50aa89b7fd06e6b465ade99880084c1be5ccbaadb72dcd94a21f913d"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-hi-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-hi.json",
+      "bytes": 1415,
+      "sha256": "84b64c6f89b90732c72eb274e4ccbbf831452e8e6ca42a1e12bebbfe8a648ce6"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-lo-existing.execution.json",
+      "bytes": 1153,
+      "sha256": "462c6d4a2b2c63fbd7e70477c3353ecfa0c753de46e189e56f9f3619d156298c"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-lo-existing.stderr.txt",
+      "bytes": 635,
+      "sha256": "ff5ebf1ae291d3b838cc5330606e01436f71eca33737fc1a56c41098c38d44cf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-difference-lo.json",
+      "bytes": 1415,
+      "sha256": "c13303d53b2ab6c97a62054395b2000a7c837c9249a1cc577f45f7636986b8bf"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-hi-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "94c9e0b90ef408849e4eaa30a53415a58887647c5beab1719cfcab40f8201321"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-hi-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-hi-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-hi.json",
+      "bytes": 1415,
+      "sha256": "248fa1bb2369fd4063c7f6d8b406b7ee4034c66da6239338fea8f6aac4ed9f0a"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-lo-existing.execution.json",
+      "bytes": 1148,
+      "sha256": "d10b1e6257906a0f2253740b209c53ee0c2d32283d6ce0a37d85057969503ce7"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-lo-existing.stderr.txt",
+      "bytes": 551,
+      "sha256": "29c498cf41f864ccdb7ae79d3bb2f90828508e9a6168dc1b12a6d8e9cd94e466"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-lo-existing.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/p2-ratio-lo.json",
+      "bytes": 1415,
+      "sha256": "2064d8f097cb0f45813626b8eb26c50c06c5dfbaca0e19690a10a30a3aadfd29"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/result.json",
+      "bytes": 22069,
+      "sha256": "ff1359309ecc144854fadbce992bf8634bae62b58cb84233ec4642924904b586"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/stderr.txt",
+      "bytes": 98,
+      "sha256": "8531d820d22f5cdadd3f00c00d592e13c211ecf2ec0fe113c1931848a5ccc97d"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/attempt-1/stdout.txt",
+      "bytes": 22069,
+      "sha256": "ff1359309ecc144854fadbce992bf8634bae62b58cb84233ec4642924904b586"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/INDEPENDENT_REVIEW.md",
+      "bytes": 1287,
+      "sha256": "25492b89b54271edadd08b8a516326d47c974a14e81cdb40d92c7265e35867a1"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econ-claim-readback.json",
+      "bytes": 5759,
+      "sha256": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econ-freeze-blob-audit.json",
+      "bytes": 7498,
+      "sha256": "cb937be0561872448ea1d9006f8ee5ed8511313de9cacfec2f2637937c961ac4"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econ-freeze-commit.stdout.txt",
+      "bytes": 2737,
+      "sha256": "dea4c6a5a6038487b653fc5f450f8c89a6dd8761218b20adc9c4a1e75567ad3f"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econComments.json",
+      "bytes": 295,
+      "sha256": "f0f2c7a00dc2d8eb22b5f9fa50e3269dc1c07ef2594a43a08ebea8bedce9b03d"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econPR4.json",
+      "bytes": 2862,
+      "sha256": "11120c8f257489af8468c184d66e72777bef1299b7dd70335354ef454a04b792"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/econPRs.json",
+      "bytes": 2243,
+      "sha256": "ea5e1b151a6733feca59540095498f5fa28b444299ac88b2123d130048894997"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/freeze-attempt1-error.json",
+      "bytes": 1988,
+      "sha256": "ca83d1ed4dc412d1fbcd49a34c22775618e28a7a997d267a88f8117649faac67"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-admit-console.json",
+      "bytes": 1083,
+      "sha256": "84d06048de9ca2c5dfab60526a42a2bb6cf6a7b3414013ef02a028282561e5b8"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-checkout-output.json",
+      "bytes": 412,
+      "sha256": "16b1d0b44a0fdcf12e7582ea4a893bbe1437629380dfcd1c700fa3b5d375434e"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-chem-completion-console.json",
+      "bytes": 1772,
+      "sha256": "be2d47386f287eacb066701b6ae21297ffb1a9e6b3d502d6733292f80b2528b0"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-chem-launch-console.json",
+      "bytes": 131,
+      "sha256": "99995ceaf3e9da5d0c15891eb4f47224747ebad5da929e7221749e4e9d3a52b1"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-clone-output.json",
+      "bytes": 198,
+      "sha256": "fe1824d8cb443182d63c702017203ee9e86aed2807e38b1b5bb8efd268162e16"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-econ-completion-console.json",
+      "bytes": 1758,
+      "sha256": "3641e33f121793d8c257f0f26ed5ad5f31435b21f8ec7442a97415cafc967651"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-econ-launch-console.json",
+      "bytes": 131,
+      "sha256": "6f9d79202f11b8abedb151d374896c01ec8ba46950cc43a73df5d337c13c2c51"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-freeze-attempt2-console.json",
+      "bytes": 528,
+      "sha256": "e47703cb93f4b0236a00c2cd95b26dd84c24678be0f75f8af8762bb6ccbf22cd"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-freeze-console.json",
+      "bytes": 1988,
+      "sha256": "ca83d1ed4dc412d1fbcd49a34c22775618e28a7a997d267a88f8117649faac67"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-prepare-planning-output.json",
+      "bytes": 524,
+      "sha256": "f39083bc1c109ed820f1d083b0b400e7e7f1095d132f7301cebba40fd6e0bd11"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/second-refreeze-console.json",
+      "bytes": 822,
+      "sha256": "6449981d025ccb7ed557cbaadf00149f60ff86f820953f790120f93e150874a1"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/preflight/WEB_TRACE.json",
+      "bytes": 24936,
+      "sha256": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4"
+    },
+    {
+      "path": "problems/ECON-001/results/independent_20261011/ROUND_REPORT.md",
+      "bytes": 2452,
+      "sha256": "228ab6327b99860d3be0abcaa5ec2e7592d4b884c233afab895acec3bb4a8b55"
+    }
+  ],
+  "manifest_excludes_itself": true
+}

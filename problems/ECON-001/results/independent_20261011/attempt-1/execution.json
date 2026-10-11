@@ -1,0 +1,10 @@
+{
+  "finished_at": "2026-10-11T19:13:45.917196+00:00",
+  "wall_seconds": 1.4983209000056377,
+  "child_exit_code": 1,
+  "timed_out": false,
+  "cleanup": {},
+  "result_present": true,
+  "verdict": "AUDIT_FAIL_EVALUATOR_CONTRACT",
+  "status": "COMPLETED_WITH_RETAINED_FAILURE"
+}

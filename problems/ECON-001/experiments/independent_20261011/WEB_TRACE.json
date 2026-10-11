@@ -1,0 +1,244 @@
+{
+  "queries_executed_after_round_start": "2026-10-11T18:54:59+00:00",
+  "engine": "web.run",
+  "chem_queries": [
+    {
+      "category": "general",
+      "query": "solvation free energy transferable prediction neutral ions FreeSolv 2026 Moore",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "discipline",
+      "query": "site:pubs.acs.org 10.1021/jacs.5c10940 solvation",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "solution",
+      "query": "solvation free energy transferability solved experimental accuracy 2026",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "criticism",
+      "query": "Computing Solvation Free Energies Small Molecules Experimental Accuracy correction erratum retraction 5c10940",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "solution",
+      "query": "solvation free energy universal transferable prediction experimental accuracy solved criticism",
+      "engine": "web.run search index",
+      "outcome": "Undated solution perspective. Mixed/noisy results; no verified universal same-scope resolution. Authorized task remains bounded replication/verifier audit."
+    }
+  ],
+  "econ_queries": [
+    {
+      "category": "general",
+      "query": "AI firm productivity causal effects 2026 business trends outlook survey",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "discipline",
+      "query": "site:nber.org w34984 Artificial Intelligence Productivity Workforce",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "solution",
+      "query": "AI firm productivity causal effects identified solved 2026 business adoption",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "criticism",
+      "query": "Artificial Intelligence Productivity Workforce 34984 correction erratum retraction 2026",
+      "engine": "web.run search index",
+      "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+    },
+    {
+      "category": "solution",
+      "query": "AI firm productivity causal effects solved identification business adoption survey",
+      "engine": "web.run search index",
+      "outcome": "Undated solution perspective. Mixed/noisy results; no verified universal same-scope resolution. Authorized task remains bounded replication/verifier audit."
+    }
+  ],
+  "trace": [
+    {
+      "key": "second-search-0",
+      "raw_result_heading_lines": [
+        "Predicting Solvation Free Energies of Molecules and Ions via ... (https://pubs.acs.org/doi/10.1021/acs.jctc.6c00692)",
+        "DOI Name 10.1021 Values (https://doi.org/10.1021)",
+        "Computing Solvation Free Energies of Small Molecules with ... (https://pubs.acs.org/jacsat/article/148/5/4928/5085172/Computing-Solvation-Free-Energies-of-Small)",
+        "Computing Solvation Free Energies of Small Molecules ... (https://pubmed.ncbi.nlm.nih.gov/41591329/)",
+        "Computing solvation free energies of small molecules with ... (https://arxiv.org/abs/2405.18171)",
+        "Palladium-Catalyzed Cross-Coupling Reactions of ... (https://pubs.acs.org/chreay/article/95/7/2457/1556750/Palladium-Catalyzed-Cross-Coupling-Reactions-of)",
+        "Computing solvation free energies of small molecules with ... (https://arxiv.org/html/2405.18171v5)",
+        "Pharmaceuticals, Hormones, and Other Organic Wastewater ... (https://pubs.acs.org/esthag/article/36/6/1202/3719701/Pharmaceuticals-Hormones-and-Other-Organic)",
+        "Computing hydration free energies of small molecules with ... (https://www.researchgate.net/publication/380935225_Computing_hydration_free_energies_of_small_molecules_with_first_principles_accuracy)",
+        "Smoothing and Differentiation of Data by Simplified Least ... (https://pubs.acs.org/ancham/article/36/8/1627/1020927/Smoothing-and-Differentiation-of-Data-by)",
+        "Accurately predicting solvation free energy in aqueous and ... (https://strathprints.strath.ac.uk/83774/1/Fowles_etal_DD_2022_Accurately_predicting_solvation_free_energy_in_aqueous.pdf)",
+        "Computations of absolute solvation free energies of small ... (https://www.osti.gov/biblio/969209)",
+        "A database of experimental and calculated hydration free ... (https://www.semanticscholar.org/paper/FreeSolv%3A-A-database-of-experimental-and-calculated-Mobley-Guthrie/f0b629d20e54ab62377434c4e5bfaa924bdc25a1)",
+        "Preparation of Graphitic Oxide - ACS Publications (https://pubs.acs.org/jacsat/article/80/6/1339/711260/Preparation-of-Graphitic-Oxide)",
+        "[PDF] Predicting small-molecule solvation free energies (https://www.semanticscholar.org/paper/Predicting-small-molecule-solvation-free-energies%3A-Nicholls-Mobley/b8e7353249940217c385d8b322d4e96f0141e236)",
+        "Predicting Solvation Free Energies of Molecules and Ions ... (https://www.researchgate.net/publication/408209735_Predicting_Solvation_Free_Energies_of_Molecules_and_Ions_via_First-Principles_and_Machine-Learning_Molecular_Dynamics)",
+        "Cancer Cell Imaging and Photothermal Therapy in the Near ... (https://pubs.acs.org/jacsat/article/128/6/2115/3523383/Cancer-Cell-Imaging-and-Photothermal-Therapy-in)",
+        "Transfer learning for solvation free energies (https://www.sciencedirect.com/science/article/abs/pii/S1385894721008925)",
+        "Computing solvation free energies of small molecules with ... (https://www.compchemhighlights.org/2025/07/computing-solvation-free-energies-of.html)",
+        "FreeSolv: Experimental and Calculated Small Molecule ... (https://github.com/mobleylab/freesolv)",
+        "Challenges and Prospects of Lithium–Sulfur Batteries (https://pubs.acs.org/achre4/article/46/5/1125/1297136/Challenges-and-Prospects-of-Lithium-Sulfur)",
+        "Computing Solvation Free Energies of Small Molecules ... (https://eurekamag.com/research/102/894/102894988.php?srsltid=AU7gw4XhcB1WBoo9hYYeTIPgArcuohOy5aTFcAx7rAijUXlCGQRLcAIj)",
+        "FreeSolv: a database of experimental and calculated ... (https://escholarship.org/uc/item/2wm8n1xd)",
+        "A New Two-Constant Equation of State - ACS Publications (https://pubs.acs.org/iecfa7/article/15/1/59/1747271/A-New-Two-Constant-Equation-of-State)",
+        "Accurate determination of solvation free energies of neutral ... (https://impact.ornl.gov/en/publications/accurate-determination-of-solvation-free-energies-of-neutral-orga/)",
+        "Computing Solvation Free Energies of Small Molecules with ... (https://pmc.ncbi.nlm.nih.gov/articles/PMC12903862/)",
+        "Predicting solvation free energies with an implicit solvent ... (https://pubs.aip.org/aip/jcp/article/161/23/234101/3325814/Predicting-solvation-free-energies-with-an)",
+        "Alloy Negative Electrodes for Li-Ion Batteries - ACS Publications (https://pubs.acs.org/chreay/article/114/23/11444/1482520/Alloy-Negative-Electrodes-for-Li-Ion-Batteries)",
+        "A review of methods for the calculation of solution free ... (https://pubs.rsc.org/cp/article/17/9/6174/471596/A-review-of-methods-for-the-calculation-of)",
+        "Fine-tuning molecular mechanics force fields to ... (https://www.biorxiv.org/content/10.1101/2025.01.06.631610.full)",
+        "Identifying Small Molecules via High Resolution Mass ... (https://pubs.acs.org/esthag/article/48/4/2097/833587/Identifying-Small-Molecules-via-High-Resolution)",
+        "Rapid Prediction of Solvation Free Energy. 1. An Extensive ... (https://nrc-publications.canada.ca/eng/view/accepted/?id=db942382-0c5f-45a5-93de-fc05ec724686)",
+        "Predicting Solvation Free Energies of Molecules and Ions via First-Principles and Machine-Learning Molecular Dynamics (https://arxiv.org/abs/2604.17076)",
+        "All-atomistic Transferable Neural Potentials for Protein Solvation (https://arxiv.org/abs/2605.14584)"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    },
+    {
+      "key": "second-search-1",
+      "raw_result_heading_lines": [
+        "AI is transforming creative work as demand for content accelerates (https://www.theaustralian.com.au/sponsored-content/ai-is-transforming-creative-work-as-demand-for-content-accelerates/news-story/67342c4cfe00f07d96b1f44050bc53eb)",
+        "Developers are burned out, disengaged, and facing an AI-powered reset, a survey of 30,000 workers found (https://www.businessinsider.com/developers-are-burned-out-as-ai-coding-reshapes-work-survey-2026-10)",
+        "Finance teams are wasting a quarter of their week checking AI slop (https://www.itpro.com/business/business-strategy/finance-teams-are-wasting-a-quarter-of-their-week-checking-ai-slop)",
+        "Misuse of AI is brands' top reputational threat, new survey says (https://www.theguardian.com/technology/2026/oct/06/ai-misuse-brand-reputation)",
+        "84% of large enterprises have cancelled an AI project because of legacy systems (https://www.expresscomputer.in/news/84-of-large-enterprises-have-cancelled-an-ai-project-because-of-legacy-systems/139420/)",
+        "Large Firms With at Least 20 Employees Biggest AI Users (https://www.census.gov/library/stories/2026/05/ai-use-businesses.html)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://www.nber.org/papers/w34984)",
+        "‎Google Gemini (https://gemini.google.com/)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://www.atlantafed.org/research-and-data/publications/working-papers/2026/03/25/04-artificial-intelligence-productivity-and-the-workforce-evidence-from-corporate-executives)",
+        "Our Business Trends and Outlook Survey provides a ... (https://www.facebook.com/uscensusbureau/posts/our-business-trends-and-outlook-survey-provides-a-biweekly-nationally-representa/1479382937566426/)",
+        "Working Paper 34984 (https://www.nber.org/system/files/working_papers/w34984/w34984.pdf)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://ideas.repec.org/p/nbr/nberwo/34984.html)",
+        "WP2026-16: AI Expectations and Outcomes (https://www.bea.gov/sites/default/files/papers/bea-wp2026-16.pdf)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6456970)",
+        "Perplexity AI (https://www.perplexity.ai/)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6410338)",
+        "AI for Small Business Statistics 2026: Adoption & Trends (https://startupwerx.com/business-guides/ai-for-small-business-statistics/)",
+        "W34984 Teaching Note: Craft Farmacy Expansion Analysis (https://www.studocu.com/en-ca/document/the-university-of-western-ontario/businese/w34984-teaching-note-craft-farmacy-expansion-analysis/140411493)",
+        "Artificial intelligence (https://en.wikipedia.org/wiki/Artificial_intelligence)",
+        "Evidence From Firms, Business Functions, and Worker Tasks (https://lehd.ces.census.gov/applications/creat/paper-profile/1413)",
+        "Policy Details: W34984 - Feedback Tracker (https://feedback.bistudio.com/policy/explain/PHID-DSHP-6k4mndn4nvka2yjn7lf7/view/)",
+        "ChatGPT: Chat, Work, Create & Code with AI (https://chatgpt.com/)",
+        "Workers' Perspectives on Artificial Intelligence: Productivity ... (https://www.bostonfed.org/publications/current-policy-perspectives/2026/workers-perspectives-on-ai.aspx)",
+        "Survey: AI Adoption Widespread, Productivity Gains ... (https://www.psca.org/news/psca-news/2026/3/survey-ai-adoption-widespread-productivity-gains-modest-but-rising/)",
+        "Source Water Protection Tracker (https://programs.iowadnr.gov/sourcewater/SystemDetail.aspx?pwsid=7628047)",
+        "What is Artificial Intelligence (AI)? (https://cloud.google.com/learn/what-is-artificial-intelligence)",
+        "Artificial Intelligence, Productivity, and the Workforce (https://www.richmondfed.org/-/media/RichmondFedOrg/research/national_economy/cfo_survey/academic_publications/AI_survey.pdf%3B)",
+        "CFO Outlook for 2026: Tariffs, Hiring, Prices, and AI Impact (https://www.richmondfed.org/research/national_economy/cfo_survey/data_and_results/2025/20251217_data_and_results)",
+        "Matthew Wood - Energy Services Group International (https://www.linkedin.com/in/matthew-wood-83905922b)",
+        "Google AI - How we're making AI helpful for everyone (https://ai.google/)",
+        "AI, Productivity, and Labor Markets: A Review of the ... (https://laweconcenter.org/resources/ai-productivity-and-labor-markets-a-review-of-the-empirical-evidence/)",
+        "PwC's 2026 Digital Trends in Operations Survey (https://www.pwc.com/us/en/services/consulting/supply-chain-operations/library/digital-trends-operations-survey.html)",
+        "Brent Meyer - VP and Sr. Economist at Federal Reserve ... (https://www.linkedin.com/in/bhmeyer)",
+        "OpenAI | Research & Deployment (https://openai.com/)",
+        "International comparisons show AI effect on productivity (https://www.dallasfed.org/research/economics/2026/0707)",
+        "AI Adoption in 2026: Statistics, Trends, Market Growth (https://wiserbrand.com/blog/ai-adoption-statistics-2026/)",
+        "Mono Bow Fairisle Superhairy Cosy Socks 2 Pack (https://www.next.us/en/style/su685769/w34984)",
+        "The choices we make about AI now are critical | Bill Gates (https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make)",
+        "AI & the Future of Work - REPORTS (https://csd.columbia.edu/research-projects/artificial-intelligence-future-work/reports)",
+        "AI Act | Shaping Europe's digital future - European Union (https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai)",
+        "Productivity decline in 30% of companies using agentic AI: McKinsey report (https://timesofindia.indiatimes.com/business/international-business/productivity-decline-in-30-of-companies-using-agentic-ai-mckinsey-report/articleshow/134364085.cms)"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    },
+    {
+      "key": "second-primary-open",
+      "raw_result_heading_lines": [
+        "Calculating solvation energies by means of a fluctuating ... (https://pubs.aip.org/aip/jcp/article/134/19/194115/983209/Calculating-solvation-energies-by-means-of-a)",
+        "Prediction of Solvation Free Energies of Ionic Solutes in ... (https://www.researchgate.net/publication/340951098_Prediction_of_Solvation_Free_Energies_of_Ionic_Solutes_in_Neutral_Solvents)",
+        "Pooling solvent mixtures for solvation free energy predictions (https://www.researchgate.net/publication/390767140_Pooling_solvent_mixtures_for_solvation_free_energy_predictions)",
+        "Artificial intelligence and firm-level productivity - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0167268123001531)",
+        "Efficient and accurate solvation energy calculation from ... (https://scholars.lib.ntu.edu.tw/bitstreams/d4f54700-b9bb-48f1-87bf-041d871ab2ce/download)",
+        "How to calculate solvation free energy and enthalpy? (https://www.researchgate.net/post/How_to_calculate_solvation_free_energy_and_enthalpy)",
+        "Does AI boost firm productivity? A web scraping and LLMs approach - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S0308596125002356)",
+        "Is there any definitive evidence that implicit solvation ... (https://mattermodeling.stackexchange.com/questions/930/is-there-any-definitive-evidence-that-implicit-solvation-methods-are-more-accura)",
+        "Solvation Free Energy Prediction Model Across Different ... (https://infochim.u-strasbg.fr/IMG/pdf)",
+        "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks | NBER (https://www.nber.org/papers/w35141)",
+        "Accurate prediction of hydration free energies and ... (https://hal.science/document)",
+        "Determination of the absolute solvation free energy and ... (https://www.researchgate.net/)",
+        "Causal Inference in Econometrics Using Machine Learning: Estimating the Effect of AI and Automation Adoption on Firm Productivity in Europe | Statistics, Optimization & Information Computing (https://iapress.org/index.php/soic/article/view/3212)",
+        "Firm Data on AI by Ivan Yotzov, Jose Maria Barrero, Nicholas Bloom, Philip Bunn, Steven Davis, Kevin Foster, Aaron Jalca, Brent Meyer, Paul Mizen, Michael A. Navarrete, Pawel Smietanka, Greg Thwaites, Ben Zhe Wang :: SSRN (https://papers.ssrn.com/sol3/Delivery.cfm/nber_w34836.pdf?abstractid=6246334&mirid=1)",
+        "Mapping AI into Production: A Field Experiment on Firm Performance | INSEAD (https://www.insead.edu/faculty-research/publications/working-papers/mapping-ai-production-a-field-experiment-firm)",
+        "Belief Updating and AI Adoption: Experimental Evidence from Firms | Working Paper | ifo Institute | CESifo (https://www.ifo.de/en/cesifo/publications/2025/working-paper/belief-updating-and-ai-adoption-experimental-evidence-firms)",
+        "Generative AI and labour productivity: A quasi experiment on coding - ScienceDirect (https://www.sciencedirect.com/science/article/pii/S1572308926000458)",
+        "Most companies suffer some risk-related financial loss deploying AI, EY survey shows (https://www.reuters.com/business/most-companies-suffer-some-risk-related-financial-loss-deploying-ai-ey-survey-2025-10-08/)",
+        "If AI doesn't kill your company, it will make it stronger, study shows (https://www.reuters.com/technology/artificial-intelligence/if-ai-doesnt-kill-your-company-it-will-make-it-stronger-study-shows-2025-04-01/)",
+        "[2405.18171] Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/abs/2405.18171)",
+        "citeturn7view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://arxiv.org/abs/2405.18171\",\"lineno\":null}); Total lines: 165",
+        "GitHub - MobleyLab/FreeSolv: Experimental and calculated small molecule hydration free energies · GitHub (https://github.com/mobleylab/FreeSolv)",
+        "citeturn7view1 [wordlim: 200] Crawled: 6 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://github.com/mobleylab/FreeSolv\",\"lineno\":null}); Total lines: 416",
+        "Large Firms With at Least 20 Employees Biggest AI Users (https://www.census.gov/library/stories/2026/05/ai-use-businesses.html)",
+        "citeturn7view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.census.gov/library/stories/2026/05/ai-use-businesses.html\",\"lineno\":null}); Total lines: 251",
+        "Internal Error ()",
+        "citeturn7view3 [wordlim: 200] Source: open({\"ref_id\":\"https://www.nber.org/papers/w34984\",\"lineno\":null}); Total lines: 1"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    },
+    {
+      "key": "second-primary-find",
+      "raw_result_heading_lines": [
+        "[2405.18171] Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/abs/2405.18171)",
+        "citeturn9view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn7view0\",\"pattern\":\"Abstract\"}); Total lines: 165",
+        "[2405.18171] Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/abs/2405.18171)",
+        "citeturn9view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn7view0\",\"pattern\":\"v6\"}); Total lines: 165",
+        "GitHub - MobleyLab/FreeSolv: Experimental and calculated small molecule hydration free energies · GitHub (https://github.com/mobleylab/FreeSolv)",
+        "citeturn9view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn7view1\",\"pattern\":\"AM1\"}); Total lines: 458",
+        "Large Firms With at Least 20 Employees Biggest AI Users (https://www.census.gov/library/stories/2026/05/ai-use-businesses.html)",
+        "citeturn9view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn7view2\",\"pattern\":\"39.7\"}); Total lines: 251",
+        "Large Firms With at Least 20 Employees Biggest AI Users (https://www.census.gov/library/stories/2026/05/ai-use-businesses.html)",
+        "citeturn9view4 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn7view2\",\"pattern\":\"November\"}); Total lines: 251"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    },
+    {
+      "key": "second-primary-methods",
+      "raw_result_heading_lines": [
+        "Business Trends and Outlook Survey (BTOS) (https://www.census.gov/programs-surveys/btos.html)",
+        "citeturn10view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn7view2\",\"id\":81}); Total lines: 293",
+        "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks (https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html)",
+        "citeturn10view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: click({\"ref_id\":\"turn7view2\",\"id\":86}); Total lines: 239",
+        "Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/html/2405.18171v6)",
+        "citeturn10view2 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: click({\"ref_id\":\"turn7view0\",\"id\":10}); Total lines: 726"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    },
+    {
+      "key": "second-methods-scope",
+      "raw_result_heading_lines": [
+        "Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/html/2405.18171v6)",
+        "citeturn12view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn10view2\",\"pattern\":\"neutral\"}); Total lines: 726",
+        "Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/html/2405.18171v6)",
+        "citeturn12view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn10view2\",\"pattern\":\"MACE-OFF24\"}); Total lines: 726",
+        "Computing solvation free energies of small molecules with experimental accuracy (https://arxiv.org/html/2405.18171v6)",
+        "citeturn12view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn10view2\",\"pattern\":\"FreeSolv\"}); Total lines: 726",
+        "The Microstructure of AI Diffusion: Evidence from Firms, Business Functions, and Worker Tasks (https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html)",
+        "citeturn12view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: find({\"ref_id\":\"turn10view1\",\"pattern\":\"Abstract\"}); Total lines: 239"
+      ],
+      "source_excerpt_copies": false,
+      "full_output_in_session_tool_record": true
+    }
+  ],
+  "errors": [
+    "Internal Error on direct NBERw34984 open",
+    "Internal Error on direct NBERw34836 open",
+    "Internal Error on direct NBERw35141 open"
+  ],
+  "limits": "Returned URL/title/source-command metadata retained; page prose not recopied. Full tool outputs in session record. No verified no-correction/causal resolution claim."
+}

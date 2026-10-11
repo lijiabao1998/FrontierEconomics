@@ -1,0 +1,86 @@
+{
+  "source_head": "7697744793494ef6b0d42385dc8e1d51bb8f4d0d",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1278,
+      "sha256": "35f22b03692b526da51c6ad65ab730a1e3e80176ab34da68c430cf908fa47d04",
+      "git_blob": "ec4eec0b736e13e3a99ab6c67c07a76d6afd9196"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 545,
+      "sha256": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff",
+      "git_blob": "f8e93bfd10c54ede661541b7261a862ef3a27b26"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 498,
+      "sha256": "df6549c8937045eb6b35bc4e447684436c623e83953ab39a9edf38f9f333fa66",
+      "git_blob": "b959ba75e7c4f5848185994ad203a47070d47513"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 537,
+      "sha256": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929",
+      "git_blob": "ba92b91f512bc2d74317d14668a2d7eb68d4da43"
+    },
+    {
+      "path": "GOVERNANCE.lock.json",
+      "bytes": 132,
+      "sha256": "f19ba2a40df880a4f3c0808ad32219830a3bff2b769fa666d3bc91e45dd24d8b",
+      "git_blob": "1e04287df033aa09e8c7e1da87b8c9408f167e08"
+    },
+    {
+      "path": "problems/ECON-001/problem.json",
+      "bytes": 1750,
+      "sha256": "da4a012a60777a5ca538b10978bb91fca1883fab404c8b80b9ec3efc33c173a2",
+      "git_blob": "d71a4dda2dc350817938dd05744a3e74d19a83f5"
+    },
+    {
+      "path": "runs/20261009T115523985642Z-gpt-ECON-001/round.json",
+      "bytes": 9502,
+      "sha256": "44a5f1202c1893f396909bfa57f20fe744c28d89880adc5cf92d29f5e24f01bf",
+      "git_blob": "3c9ed701a5a11b8842f8b74adfcf9f61a2a45def"
+    },
+    {
+      "path": "runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json",
+      "bytes": 5164,
+      "sha256": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c",
+      "git_blob": "059135b0cd94e3a1cef3df475548098e854ffb82"
+    },
+    {
+      "path": "runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+      "bytes": 1283,
+      "sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+      "git_blob": "ef095f74788f82da67cbaf1e39abba29a49ed3a2"
+    },
+    {
+      "path": "problems/ECON-001/results/btos-baseline.json",
+      "bytes": 1366,
+      "sha256": "17b5a7d038c6837027b3de0c8cda88a10bfbaaf5c7251192abc04b0353d55565",
+      "git_blob": "4c1750173b36d9c73393eca9dce7107132ee0719"
+    },
+    {
+      "path": "problems/ECON-001/experiments/btos_baseline.py",
+      "bytes": 5155,
+      "sha256": "5e036c58ea742f1770502cf528eb4520efd47dd7453ade661a5d8e8cf1b90c1f",
+      "git_blob": "eb19d2575c5d3d83a710c9b1daabf468cd326eed"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_review/verify_economics.py",
+      "bytes": 3232,
+      "sha256": "ab0c9ac1769f3cd628c1cd0ce5de45686380df1c60f8533c671b5a00fda54526",
+      "git_blob": "0be0bfec7d25b2ec1cecc255f46f47c49ce5a80b"
+    },
+    {
+      "path": "problems/ECON-001/experiments/independent_review/test_negative_controls.py",
+      "bytes": 988,
+      "sha256": "17a9f70a98ed4e1da2bd106902fcacd16fcc5443b4540bdc8efedebee48c0255",
+      "git_blob": "8736b1f62043ce5b9d33ea3f1a2e45994f2d0022"
+    }
+  ],
+  "dataset_parsed": false,
+  "author_imported": false,
+  "scientific_execution": "NOT_RUN"
+}

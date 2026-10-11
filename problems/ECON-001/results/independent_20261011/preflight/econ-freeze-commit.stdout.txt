@@ -1,0 +1,27 @@
+[gpt/ECON-001-envelope-independent-20261011 2b5af03] ECON-001: freeze registered independent audit protocol
+ 25 files changed, 1493 insertions(+)
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/.gitattributes
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/PROTOCOL.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/PROTOCOL_REVIEW.txt
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/SOURCE_MANIFEST.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/admission_guard.py
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/AGENTS.md
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/GOVERNANCE.lock.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/README.md
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/STATUS.md
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/VALIDATION.md
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/btos_baseline.py
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/test_negative_controls.py
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/verify_economics.py
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/problem.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/results/btos-baseline.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/public-claim-readback.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/round.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/run_bounded.py
+ create mode 100644 problems/ECON-001/experiments/independent_20261011/verify.py
+ create mode 100644 problems/ECON-001/results/independent_20261011/.gitattributes
+ create mode 100644 runs/20261011T185459793162Z-gpt-ECON-001/.gitattributes
+ create mode 100644 runs/20261011T185459793162Z-gpt-ECON-001/round.json

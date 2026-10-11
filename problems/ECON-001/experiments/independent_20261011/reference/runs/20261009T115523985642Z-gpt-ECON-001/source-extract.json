@@ -1,0 +1,27 @@
+{
+  "source_url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+  "title": "Large Firms With at Least 20 Employees Biggest AI Users",
+  "published_at": "2026-05-26",
+  "retrieved_at": "2026-10-09T11:57:55.307019+00:00",
+  "locator": "AI Trends Across Sectors, first bullet; full sentence beginning As of May 3, 2026",
+  "extraction": "Manual numeric transcription, precise reusable factual extract. Three numbers only; no underlying microdata or unrounded table downloaded.",
+  "reference_period_end": "2026-05-03",
+  "reference_window": "Reported AI use in past two weeks; source identifies collection period ending May 3, 2026. Do not infer response-specific exact dates.",
+  "measure": "self-reported AI use in any business function in the past two weeks",
+  "unit": "percent of businesses, as published to one decimal place",
+  "cells": [
+    {
+      "group": "Information",
+      "rate_percent": "39.7"
+    },
+    {
+      "group": "Finance and Insurance",
+      "rate_percent": "33.9"
+    },
+    {
+      "group": "National",
+      "rate_percent": "19.8"
+    }
+  ],
+  "missing": "No selected published rate missing; standard errors, joint covariance, cell sample counts, microdata, survey weights and productivity outcomes absent from this extract."
+}

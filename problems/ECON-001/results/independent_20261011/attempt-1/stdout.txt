@@ -1,0 +1,408 @@
+{
+  "verdict": "AUDIT_FAIL_EVALUATOR_CONTRACT",
+  "matrix": [
+    {
+      "name": "normal",
+      "new_fraction_accepts": true,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\normal.json"
+        ],
+        "exit_code": 0,
+        "accepted": true,
+        "timeout": false,
+        "rejection_kind": "ACCEPTED"
+      }
+    },
+    {
+      "name": "p0-difference-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p0-difference-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p0-difference-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p0-difference-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p0-ratio-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p0-ratio-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p0-ratio-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p0-ratio-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p1-difference-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p1-difference-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p1-difference-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p1-difference-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p1-ratio-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p1-ratio-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p1-ratio-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p1-ratio-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p2-difference-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p2-difference-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p2-difference-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p2-difference-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p2-ratio-lo",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p2-ratio-lo.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    },
+    {
+      "name": "p2-ratio-hi",
+      "new_fraction_accepts": false,
+      "author": {
+        "accepted": true,
+        "exception": null
+      },
+      "existing_independent": {
+        "args": [
+          "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+          "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p2-ratio-hi.json"
+        ],
+        "exit_code": 1,
+        "accepted": false,
+        "timeout": false,
+        "rejection_kind": "ASSERTION_REJECTION"
+      }
+    }
+  ],
+  "exact_corner_certificates": [
+    {
+      "pair": [
+        0,
+        1
+      ],
+      "difference_extrema_exact": [
+        "57/10",
+        "59/10"
+      ],
+      "ratio_extrema_exact": [
+        "793/679",
+        "795/677"
+      ],
+      "eight_corner_differences": [
+        "29/5",
+        "29/5",
+        "57/10",
+        "57/10",
+        "59/10",
+        "59/10",
+        "29/5",
+        "29/5"
+      ],
+      "eight_corner_ratios": [
+        "793/677",
+        "793/677",
+        "793/679",
+        "793/679",
+        "795/677",
+        "795/677",
+        "795/679",
+        "795/679"
+      ]
+    },
+    {
+      "pair": [
+        0,
+        2
+      ],
+      "difference_extrema_exact": [
+        "99/5",
+        "20"
+      ],
+      "ratio_extrema_exact": [
+        "793/397",
+        "159/79"
+      ],
+      "eight_corner_differences": [
+        "199/10",
+        "99/5",
+        "199/10",
+        "99/5",
+        "20",
+        "199/10",
+        "20",
+        "199/10"
+      ],
+      "eight_corner_ratios": [
+        "793/395",
+        "793/397",
+        "793/395",
+        "793/397",
+        "159/79",
+        "795/397",
+        "159/79",
+        "795/397"
+      ]
+    },
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "difference_extrema_exact": [
+        "14",
+        "71/5"
+      ],
+      "ratio_extrema_exact": [
+        "677/397",
+        "679/395"
+      ],
+      "eight_corner_differences": [
+        "141/10",
+        "14",
+        "71/5",
+        "141/10",
+        "141/10",
+        "14",
+        "71/5",
+        "141/10"
+      ],
+      "eight_corner_ratios": [
+        "677/395",
+        "677/397",
+        "679/395",
+        "679/397",
+        "677/395",
+        "677/397",
+        "679/395",
+        "679/397"
+      ]
+    }
+  ],
+  "normal_pass": true,
+  "new_rejects_all12": true,
+  "existing_rejects_all12": true,
+  "author_rejects_all12": false,
+  "smallest_fixed_order_counterexample": {
+    "name": "p0-difference-lo",
+    "new_fraction_accepts": false,
+    "author": {
+      "accepted": true,
+      "exception": null
+    },
+    "existing_independent": {
+      "args": [
+        "C:\\Users\\Leon1\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\problems\\ECON-001\\experiments\\independent_review\\verify_economics.py",
+        "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\frozen-spec.json",
+        "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\experiments\\independent_20261011\\reference\\runs\\20261009T115523985642Z-gpt-ECON-001\\source-extract.json",
+        "C:\\Users\\Leon1\\Documents\\Codex\\2026-10-12\\task\\second-batch-independent-20261011\\FrontierEconomics\\problems\\ECON-001\\results\\independent_20261011\\attempt-1\\p0-difference-lo.json"
+      ],
+      "exit_code": 1,
+      "accepted": false,
+      "timeout": false,
+      "rejection_kind": "ASSERTION_REJECTION"
+    }
+  },
+  "scope": "Three rounded manually transcribed cells only; rounding envelopes are not sampling CI. No causal/productivity inference."
+}
