@@ -1,0 +1,46 @@
+{
+  "frozen_at": "2026-10-09T11:57:55.307019+00:00",
+  "scope": "ECON-001 first-task replication: sector association with reported AI use, not AI-productivity association or effect. No original discovery and parent remains OPEN.",
+  "dataset_path": "runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+  "dataset_sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+  "population": "Census BTOS in-scope U.S. employer businesses, including single- and multi-location since September 2023; farm and additional published scope exclusions apply. Nonemployers are not represented. No claim this covers every U.S. firm.",
+  "units": {
+    "underlying": "Business survey reporting unit, associated with EIN per Census respondent FAQ; do not assume enterprise/consolidated-firm identity.",
+    "analysis": "Three published aggregate percentage estimates, not three independent businesses. Two sector domains plus an overlapping national benchmark."
+  },
+  "time": "Reported AI use in past two weeks; source identifies collection period ending May 3, 2026. Do not infer response-specific exact dates.",
+  "treatment": "No causal treatment assigned. Observed binary self-report of AI use in any business function, distinct from AI exposure, investment, intensity, integration, and generative AI specifically.",
+  "outcome": "Published percentage reporting current AI use. No productivity, TFP, revenue, employment, quality or time-savings outcomes available.",
+  "estimands": {
+    "primary": "Published Information percentage minus published Finance and Insurance percentage, in percentage points. Descriptive domain association only.",
+    "secondary": [
+      "Information minus National, percentage points",
+      "Finance and Insurance minus National, percentage points"
+    ],
+    "ratios": "Same three ordered rate ratios, rounded half-even to 12 decimal places; ratios refer only to displayed percentages.",
+    "multiple_comparisons": "All three comparisons frozen; no hypothesis tests, rankings over omitted sectors, model selection or significance claims."
+  },
+  "weights": "Retain published survey-weighted percentages; no reweighting or averaging sectors. Read 2023 methodology v4 describes sampling weights times state-size and sector-size nonresponse factors; percentage denominator includes businesses responding to the question. Actual 2026 weights and revisions not inspected, so do not claim an independent survey estimate.",
+  "missingness": "Require exactly these three complete cells. Reject missing, nonnumeric, duplicate, out-of-range, wrong-unit or wrong-date data. Do not impute missing/suppressed cells. Selection/nonresponse bias cannot be corrected with aggregate excerpt.",
+  "uncertainty": "No standard errors or covariances extracted. National includes sector observations: independence assumption prohibited. No CIs or p-values. Conditional rounding sensitivity only: if each published cell is rounded to nearest 0.1 pp, latent display-compatible point estimates lie within +/-0.05 pp; contrast envelope +/-0.10 pp and ratio min/max from endpoint arithmetic. This envelope is not a sampling interval and the rounding convention is an assumption.",
+  "measurement_caveats": [
+    "Core AI wording broadened on November 17, 2025 from production to any business function. Never splice before/after values as a homogeneous adoption growth series.",
+    "Self-reported use is not exogenous adoption nor verified intensity; respondent interpretation, selection and misclassification remain.",
+    "National overlap and multi-sector classification prevent computing non-sector controls by subtraction.",
+    "Survey end date is not adoption date; one cross-section cannot test pretrends."
+  ],
+  "acceptance": {
+    "A1": "Source extract SHA256 unchanged and exact three rates, definition, percent unit, and endpoint match source. Outputs deterministic decimal pp differences and 12-place ratios for three prespecified contrasts.",
+    "A2": "Point difference equals source decimal subtraction; Info-National equals (Info-Finance)+(Finance-National); ratio product identity within 2e-12.",
+    "A3": "Conditional rounding envelopes computed from stated endpoints, contain displayed point arithmetic. No interval labelled confidence interval; no standard errors, p-values or causal estimates fabricated.",
+    "A4": "Positive decimal control, equal-rate boundary, missing/duplicate/invalid percent/wrong date/wrong unit rejects, wrong arithmetic and source hash corruption controls must be detected.",
+    "A5": "DAG plus future causal estimand, requirements/assumptions and pretrend/placebo feasibility, measurement sensitivity and alternative outcomes documented; independent review pending until coordinator report."
+  },
+  "budget": {
+    "wall_minutes": 30,
+    "usd": 0,
+    "max_trials": 100,
+    "expected": "<20 deterministic calculation/control cases; one CPU process; no packages, paid API, GPU or extra worker."
+  },
+  "stop": "Stop at 30 minutes after assigned task start (11:53 UTC), after bounded deliverable, upon main-project priority request, source-integrity failure or missing permission."
+}

@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_PROPOSAL_NOT_ADMITTED",
+  "frozen_at": "2026-10-11T19:07:03+00:00",
+  "scientific_execution": "NOT_RUN",
+  "public_registration": "PENDING_PARENT_COORDINATION",
+  "budget": {
+    "wall_minutes": 30,
+    "usd": 0,
+    "single_cpu": true,
+    "concurrency": 1,
+    "max_named_controls": 100,
+    "preparation_started_at": "2026-10-11T18:47:09+00:00",
+    "preparation_deadline": "2026-10-11T19:17:09+00:00"
+  },
+  "prerequisites": [
+    "Public new-round scope and budget claim posted/read back by parent coordinator",
+    "Independent static protocol review",
+    "Fresh sources and remote head checked",
+    "Official pinned governance admit succeeds",
+    "Exact protocol/source/code bytes committed before scientific execution",
+    "Run one item at a time with single CPU affinity and deadline enforced"
+  ],
+  "preservation": [
+    "Never change prior inputs, failures, evaluator or protected card",
+    "Retain stdout/stderr/exit status of every subprocess, including expected FAIL",
+    "All quoted baseline values remain INHERITED_NOT_RERUN until independent run",
+    "Original broad problem remains OPEN; no merge/deploy"
+  ],
+  "problem_id": "ECON-001",
+  "source_pr": "https://github.com/lijiabao1998/FrontierEconomics/pull/4",
+  "source_head": "7697744793494ef6b0d42385dc8e1d51bb8f4d0d",
+  "governance_pin": "9c3ae2dbaa1c814f3ef451c041dedfe3b77d926f",
+  "goal": "Independent Fraction eight-corner audit and 12 outward endpoint mutation comparisons against original author and existing independent verifier.",
+  "inputs": {
+    "extract_path": "runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json",
+    "extract_sha256": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+    "spec_path": "runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json",
+    "spec_sha256": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c",
+    "baseline_path": "problems/ECON-001/results/btos-baseline.json",
+    "cells_percent": [
+      "39.7",
+      "33.9",
+      "19.8"
+    ],
+    "groups": [
+      "Information",
+      "Finance and Insurance",
+      "National"
+    ]
+  },
+  "oracle": {
+    "implementation": "stdlib Fraction, independent of author Decimal formulas; evaluate all8 sign corners of3 inputs ±1/20 percentage point",
+    "pairs": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "fields": [
+      "conditional_rounding_difference_pp",
+      "conditional_rounding_ratio"
+    ],
+    "endpoints": "min/max each pair difference/ratio over all8 corners; exact rational extrema saved separately from the displayed interval",
+    "display": "ratio12dp using rational integer divmod ties-to-even; compare finite-decimal differences exactly; inherited displayed ratio endpoints are rounded displays, not an exact outward interval",
+    "mutations": "Exactly12: each of3pairs x2fields x2endpoints separately changed outward by1/100; lower-=.01 upper+=.01; all other bytes/values semantically unchanged",
+    "min_counterexample_order": "pair0,difference lower first; no unregistered search or optimization"
+  },
+  "inherited_baseline": {
+    "state": "INHERITED_NOT_RERUN",
+    "differences_pp": [
+      "5.8",
+      "19.9",
+      "14.1"
+    ],
+    "ratios_12dp": [
+      "1.171091445428",
+      "2.005050505051",
+      "1.712121212121"
+    ]
+  },
+  "verifier_comparison": {
+    "author": "Read-only reviewed original btos_baseline.py verify(data,result); do not execute original main or change its code",
+    "existing_independent": "Reviewed stdlib verify_economics.py in separate sequential subprocess, pass frozen spec, source extract AND mutated result as argv1/2/3. Preserve stdout/stderr/exit status for normal plus12 mutations.",
+    "new": "Fraction strict comparison requires all exact/rounded endpoints as frozen, domain/units/pairings and NOT_ESTIMATED inference",
+    "required": "Normal accepted by all; all12 outward endpoint mutations must be rejected by both independent verifier and author contract. Record any author acceptance as actual dynamic evaluator defect, only after admitted execution."
+  },
+  "acceptance": "Exact3point contrasts and eight-corner extrema match inherited baseline displays; each negative control rejected, no missing check permitted; rejection matrix and smallest fixed-order counterexample saved.",
+  "verdict_policy": "Whole AUDIT_FAIL if any required verifier accepts any outward mutation, even if numerical replication and independent checks pass. No dynamic finding is asserted by this protocol.",
+  "exclusions": [
+    "full official tables",
+    "unrounded microdata,weights,SEs,sampling CI,pvalues",
+    "causal or productivity effects",
+    "general economics problem resolution",
+    "repairing original verifier"
+  ],
+  "preflight": {
+    "checked_at": "2026-10-11T19:01:42+00:00",
+    "verdict": "BLOCKED",
+    "queries": [
+      {
+        "category": "general",
+        "query": "AI firm productivity causal effects 2026 business trends outlook survey",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "discipline",
+        "query": "site:nber.org w34984 Artificial Intelligence Productivity Workforce",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "solution",
+        "query": "AI firm productivity causal effects identified solved 2026 business adoption",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "criticism",
+        "query": "Artificial Intelligence Productivity Workforce 34984 correction erratum retraction 2026",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "solution",
+        "query": "AI firm productivity causal effects solved identification business adoption survey",
+        "engine": "web.run search index",
+        "outcome": "Undated solution perspective. Mixed/noisy results; no verified universal same-scope resolution. Authorized task remains bounded replication/verifier audit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Census, Large Firms With at Least 20 Employees Biggest AI Users",
+        "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+        "kind": "primary",
+        "version": "published 2026-05-26, accessed 2026-10-11",
+        "read_scope": "main article including AI Trends Across Sectors first bullet and November17,2025 wording change",
+        "supports": "Three rates 39.7/33.9/19.8 at May3,2026; revised any-business-function wording."
+      },
+      {
+        "title": "Census BTOS program",
+        "url": "https://www.census.gov/programs-surveys/btos.html",
+        "kind": "primary",
+        "version": "page last revised 2026-09-16, accessed 2026-10-11",
+        "read_scope": "program description/sample/design paragraphs",
+        "supports": "Employer-business survey scope and biweekly panels; no sampling variance or microdata extracted."
+      },
+      {
+        "title": "Census CES26-25, The Microstructure of AI Diffusion",
+        "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+        "kind": "primary",
+        "version": "April2026",
+        "read_scope": "abstract-only",
+        "supports": "Related descriptive adoption evidence; no independently adjudicated causal resolution."
+      }
+    ],
+    "sources_read": true,
+    "scope_compared": true,
+    "retractions_checked": true,
+    "licenses_checked": true,
+    "safety_checked": true,
+    "baseline_identified": true,
+    "acceptance_frozen": true,
+    "limitations": "Three manually transcribed rounded cells only; national domain overlaps sectors. Program wording changed2025-11-17. NBERw34984/w34836/w35141 direct web opens returned Internal Error; preserved, not declared missing/nonexistent. Search snippets/full papers not independently audited. No same-scope causal resolution verified in this bounded check.",
+    "scope_comparison": "Descriptive rounded AI-use rates and verifier contracts do not identify firm productivity causally. Related adoption research does not authorize causal claims from these cells.",
+    "baseline": "PR4 inherited diffs5.8/19.9/14.1 and12dp ratios. Author point-containment endpoint weakness is static suspicion only;12control outcomes NOT_RUN."
+  },
+  "expected_names": [
+    "p0-difference-lo",
+    "p0-difference-hi",
+    "p0-ratio-lo",
+    "p0-ratio-hi",
+    "p1-difference-lo",
+    "p1-difference-hi",
+    "p1-ratio-lo",
+    "p1-ratio-hi",
+    "p2-difference-lo",
+    "p2-difference-hi",
+    "p2-ratio-lo",
+    "p2-ratio-hi"
+  ],
+  "infrastructure_failure_policy": "Missing public registration/admission, hashes, input, normal check, any expected named control, empty check set, extra control, exception, timeout or nonfinite number => FAIL_CLOSED/exit2; never PASS. Expected independent AssertionError on a declared negative is recorded as rejection; other subprocess errors are infrastructure failure."
+}
+

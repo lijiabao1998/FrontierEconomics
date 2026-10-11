@@ -1,0 +1,131 @@
+{
+  "round_id": "20261011T185459793162Z-gpt-ECON-001",
+  "problem_id": "ECON-001",
+  "agent": "gpt",
+  "branch": "gpt/ECON-001-envelope-independent-20261011",
+  "base_sha": "7697744793494ef6b0d42385dc8e1d51bb8f4d0d",
+  "started_at": "2026-10-11T18:54:59.793162+00:00",
+  "state": "ADMITTED",
+  "acceptance": "Frozen PROTOCOL.json SHA256 7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92. Independent bounded reference/checker replication; all expected controls required; original FAIL retained; no broad completion claim.",
+  "not_done": "NOT_RUN: no numerical calculation or author verifier execution. C2/C4 chemistry, new chemical simulations, causal estimation, full Census tables, merge/deploy and publication are outside this draft.",
+  "budget": {
+    "wall_minutes": 30,
+    "usd": 0,
+    "max_trials": 100,
+    "cpu_affinity_count": 1,
+    "concurrency": 1,
+    "preparation_started_at": "2026-10-11T18:47:09+00:00",
+    "preparation_stop_deadline": "2026-10-11T19:17:09+00:00"
+  },
+  "preflight": {
+    "checked_at": "2026-10-11T19:01:42+00:00",
+    "verdict": "PARTIAL_PROGRESS",
+    "queries": [
+      {
+        "category": "general",
+        "query": "AI firm productivity causal effects 2026 business trends outlook survey",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "discipline",
+        "query": "site:nber.org w34984 Artificial Intelligence Productivity Workforce",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "solution",
+        "query": "AI firm productivity causal effects identified solved 2026 business adoption",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "criticism",
+        "query": "Artificial Intelligence Productivity Workforce 34984 correction erratum retraction 2026",
+        "engine": "web.run search index",
+        "outcome": "Fresh bounded search after this round started. Primary sources separately opened/read to the stated scope; results are not a full literature or proof audit."
+      },
+      {
+        "category": "solution",
+        "query": "AI firm productivity causal effects solved identification business adoption survey",
+        "engine": "web.run search index",
+        "outcome": "Undated solution perspective. Mixed/noisy results; no verified universal same-scope resolution. Authorized task remains bounded replication/verifier audit."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Census, Large Firms With at Least 20 Employees Biggest AI Users",
+        "url": "https://www.census.gov/library/stories/2026/05/ai-use-businesses.html",
+        "kind": "primary",
+        "version": "published 2026-05-26, accessed 2026-10-11",
+        "read_scope": "main article including AI Trends Across Sectors first bullet and November17,2025 wording change",
+        "supports": "Three rates 39.7/33.9/19.8 at May3,2026; revised any-business-function wording."
+      },
+      {
+        "title": "Census BTOS program",
+        "url": "https://www.census.gov/programs-surveys/btos.html",
+        "kind": "primary",
+        "version": "page last revised 2026-09-16, accessed 2026-10-11",
+        "read_scope": "program description/sample/design paragraphs",
+        "supports": "Employer-business survey scope and biweekly panels; no sampling variance or microdata extracted."
+      },
+      {
+        "title": "Census CES26-25, The Microstructure of AI Diffusion",
+        "url": "https://www.census.gov/library/working-papers/2026/adrm/CES-WP-26-25.html",
+        "kind": "primary",
+        "version": "April2026",
+        "read_scope": "abstract-only",
+        "supports": "Related descriptive adoption evidence; no independently adjudicated causal resolution."
+      }
+    ],
+    "limitations": "Three manually transcribed rounded cells only; national domain overlaps sectors. Program wording changed2025-11-17. NBERw34984/w34836/w35141 direct web opens returned Internal Error; preserved, not declared missing/nonexistent. Search snippets/full papers not independently audited. No same-scope causal resolution verified in this bounded check.",
+    "scope_comparison": "Descriptive rounded AI-use rates and verifier contracts do not identify firm productivity causally. Related adoption research does not authorize causal claims from these cells.",
+    "baseline": "PR4 inherited diffs5.8/19.9/14.1 and12dp ratios. Author point-containment endpoint weakness is static suspicion only;12control outcomes NOT_RUN.",
+    "sources_read": true,
+    "scope_compared": true,
+    "retractions_checked": true,
+    "licenses_checked": true,
+    "safety_checked": true,
+    "baseline_identified": true,
+    "acceptance_frozen": true
+  },
+  "artifacts": [],
+  "result": null,
+  "public_claim": {
+    "status": "POSTED_AND_READ_BACK",
+    "url": "https://github.com/lijiabao1998/FrontierEconomics/pull/4#issuecomment-6112642974",
+    "readback_path": "problems/ECON-001/experiments/independent_20261011/reference/public-claim-readback.json",
+    "readback_sha256": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b",
+    "comment_id": 6112642974
+  },
+  "execution": {
+    "status": "NOT_RUN",
+    "launched_at": null,
+    "exit_code": null
+  },
+  "execution_inputs_sha256": {
+    "problems/ECON-001/experiments/independent_20261011/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "problems/ECON-001/experiments/independent_20261011/admission_guard.py": "bdb2e5adc78e3746d3d5969a767ad31e452e97adddf1af2fbed1cb7c4ff3eace",
+    "problems/ECON-001/experiments/independent_20261011/PROTOCOL.json": "7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92",
+    "problems/ECON-001/experiments/independent_20261011/PROTOCOL_REVIEW.txt": "b2e31f7417732f980ff04a9a8d31f98f102ee4a08198e51094f8e8b4fc32717b",
+    "problems/ECON-001/experiments/independent_20261011/reference/AGENTS.md": "df6549c8937045eb6b35bc4e447684436c623e83953ab39a9edf38f9f333fa66",
+    "problems/ECON-001/experiments/independent_20261011/reference/GOVERNANCE.lock.json": "f19ba2a40df880a4f3c0808ad32219830a3bff2b769fa666d3bc91e45dd24d8b",
+    "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/btos_baseline.py": "5e036c58ea742f1770502cf528eb4520efd47dd7453ade661a5d8e8cf1b90c1f",
+    "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/test_negative_controls.py": "17a9f70a98ed4e1da2bd106902fcacd16fcc5443b4540bdc8efedebee48c0255",
+    "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/experiments/independent_review/verify_economics.py": "ab0c9ac1769f3cd628c1cd0ce5de45686380df1c60f8533c671b5a00fda54526",
+    "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/problem.json": "da4a012a60777a5ca538b10978bb91fca1883fab404c8b80b9ec3efc33c173a2",
+    "problems/ECON-001/experiments/independent_20261011/reference/problems/ECON-001/results/btos-baseline.json": "17b5a7d038c6837027b3de0c8cda88a10bfbaaf5c7251192abc04b0353d55565",
+    "problems/ECON-001/experiments/independent_20261011/reference/public-claim-readback.json": "ddf40f5caf565356a6c7959099c04e34ed90b8e2a656b6d4f0dde51ca915bf6b",
+    "problems/ECON-001/experiments/independent_20261011/reference/README.md": "35f22b03692b526da51c6ad65ab730a1e3e80176ab34da68c430cf908fa47d04",
+    "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/frozen-spec.json": "dddbb90164fbc462fc0f0e63c825adba973f75beed41ee3b9e88b8a97168b78c",
+    "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/round.json": "44a5f1202c1893f396909bfa57f20fe744c28d89880adc5cf92d29f5e24f01bf",
+    "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
+    "problems/ECON-001/experiments/independent_20261011/reference/STATUS.md": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff",
+    "problems/ECON-001/experiments/independent_20261011/reference/VALIDATION.md": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929",
+    "problems/ECON-001/experiments/independent_20261011/run_bounded.py": "ed0a14659c7e5c1f9ba0d12890a250dd94d7a13b37c41c1b26b8a79a6d70c442",
+    "problems/ECON-001/experiments/independent_20261011/SOURCE_MANIFEST.json": "d9a97f360f5323347ee69ec38e5fed87143045d0494fb78b810b69641d1700ef",
+    "problems/ECON-001/experiments/independent_20261011/verify.py": "902346e04e759ef274a26888a08462ec13aa5c1ec3a4488cd8f7d05e193df71b",
+    "problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4"
+  },
+  "admitted_at": "2026-10-11T19:10:54.664577+00:00"
+}
