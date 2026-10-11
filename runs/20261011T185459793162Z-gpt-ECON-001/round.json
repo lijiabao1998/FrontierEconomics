@@ -5,7 +5,7 @@
   "branch": "gpt/ECON-001-envelope-independent-20261011",
   "base_sha": "7697744793494ef6b0d42385dc8e1d51bb8f4d0d",
   "started_at": "2026-10-11T18:54:59.793162+00:00",
-  "state": "ADMITTED",
+  "state": "FINISHED",
   "acceptance": "Frozen PROTOCOL.json SHA256 7813f3f44bbc436fd012744cb046839f5cbd00169a75d45dc1b6935ab90a7f92. Independent bounded reference/checker replication; all expected controls required; original FAIL retained; no broad completion claim.",
   "not_done": "NOT_RUN: no numerical calculation or author verifier execution. C2/C4 chemistry, new chemical simulations, causal estimation, full Census tables, merge/deploy and publication are outside this draft.",
   "budget": {
@@ -89,8 +89,21 @@
     "baseline_identified": true,
     "acceptance_frozen": true
   },
-  "artifacts": [],
-  "result": null,
+  "artifacts": [
+    "problems/ECON-001/experiments/independent_20261011",
+    "problems/ECON-001/results/independent_20261011"
+  ],
+  "result": {
+    "verdict": "AUDIT_FAIL_EVALUATOR_CONTRACT",
+    "child_exit_code": 1,
+    "raw_stdout": "problems/ECON-001/results/independent_20261011/attempt-1/stdout.txt",
+    "raw_stderr": "problems/ECON-001/results/independent_20261011/attempt-1/stderr.txt",
+    "summary": "problems/ECON-001/results/independent_20261011/attempt-1/result.json",
+    "scientific_all_criteria_passed": false,
+    "broad_problem_completion": false,
+    "research_runs": 1,
+    "usd": 0
+  },
   "public_claim": {
     "status": "POSTED_AND_READ_BACK",
     "url": "https://github.com/lijiabao1998/FrontierEconomics/pull/4#issuecomment-6112642974",
@@ -99,9 +112,14 @@
     "comment_id": 6112642974
   },
   "execution": {
-    "status": "NOT_RUN",
-    "launched_at": null,
-    "exit_code": null
+    "finished_at": "2026-10-11T19:13:45.917196+00:00",
+    "wall_seconds": 1.4983209000056377,
+    "child_exit_code": 1,
+    "timed_out": false,
+    "cleanup": {},
+    "result_present": true,
+    "verdict": "AUDIT_FAIL_EVALUATOR_CONTRACT",
+    "status": "COMPLETED_WITH_RETAINED_FAILURE"
   },
   "execution_inputs_sha256": {
     "problems/ECON-001/experiments/independent_20261011/.gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
@@ -128,5 +146,7 @@
     "problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4"
   },
   "admitted_at": "2026-10-11T19:10:54.664577+00:00",
-  "launcher_static_review_fix": "Bound termination cleanup; re-evaluate absolute deadline immediately before Popen/wait. No scientific evaluator or input change, no execution yet."
+  "launcher_static_review_fix": "Bound termination cleanup; re-evaluate absolute deadline immediately before Popen/wait. No scientific evaluator or input change, no execution yet.",
+  "finished_at": "2026-10-11T19:13:45.917196+00:00",
+  "independent_review": "PROTOCOL_REVIEW.txt records prelaunch STATIC_PASS; final raw artifact review recorded separately without rerun."
 }

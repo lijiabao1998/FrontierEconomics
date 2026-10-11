@@ -1,0 +1,6 @@
+Failed to find real location of C:\Users\Leon1\AppData\Local\Programs\Python\Python313\python.exe
+Traceback (most recent call last):
+  File "C:\Users\Leon1\Documents\Codex\2026-10-12\task\second-batch-independent-20261011\FrontierEconomics\problems\ECON-001\experiments\independent_20261011\reference\problems\ECON-001\experiments\independent_review\verify_economics.py", line 34, in <module>
+    assert list(map(F,a['conditional_rounding_difference_pp']))==list(map(F,b['rounding_only_difference_pp']))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

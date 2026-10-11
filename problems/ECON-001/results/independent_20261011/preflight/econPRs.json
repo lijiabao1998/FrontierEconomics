@@ -1,0 +1,22 @@
+{
+  "issues": [
+    {
+      "url": "https://github.com/lijiabao1998/FrontierEconomics/pull/4",
+      "title": "ECON-001: public AI-use descriptive baseline and identification gap",
+      "issue_number": 4,
+      "body": "Bounded first-task baseline, not an AI-productivity effect or novel discovery. Scope issue#3; ECON-001 remains OPEN.\n\nThree displayed Census percentages for the May3,2026 endpoint: Information39.7, Finance/Insurance33.9, National19.8. Frozen comparisons5.8/19.9/14.1 percentage points; exact-rational independent replay checks point ratios and all conditional rounding endpoints. Thirteen author tests plus2independent tampering controls pass. Official source separately read; factual extraction only, no microdata or article copied.\n\nNo sampling CI/p-value, productivity outcome or causal estimate. National overlaps sectors, published rates are rounded, and November17,2025 AI-question change prevents homogeneous before/after series. Proposed DAG/future identification requirements are included but NOT independently methodologically reviewed; numerical verification does not validate a future causal design.\n\nLocal frozen admission preceded arithmetic; no pre-computation Git/public preregistration snapshot existed. Worker paused for main-project priority; coordinator completed verification/docs without new stochastic trials. Source-access and initial artifact-path validation failures retained. Exact remote tree499e06016656aa5cdb272a72d2e651fe0db70e01 matches local validated224b8912eae03f0ca6740d833f52a686d84bb590.\n\nAll code/source extracts/spec/hashes/reproduction/negative controls under problems/ECON-001 and runs/20261009T115523985642Z-gpt-ECON-001. Pinned governance validate/check-pins/check-diff pass locally; exact-head CI pending. Owner review required; no merge.",
+      "state": null,
+      "user": null,
+      "assignees": null,
+      "labels": null,
+      "milestone": null,
+      "state_reason": null,
+      "comments": null,
+      "created_at": null,
+      "updated_at": null,
+      "closed_at": null,
+      "display_url": "https://github.com/lijiabao1998/FrontierEconomics/pull/4",
+      "display_title": "ECON-001: public AI-use descriptive baseline and identification gap"
+    }
+  ]
+}

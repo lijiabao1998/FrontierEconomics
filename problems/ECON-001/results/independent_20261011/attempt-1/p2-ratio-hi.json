@@ -1,0 +1,49 @@
+{
+  "scope": "Description of three published rounded AI-use rates only; no causal or productivity estimate.",
+  "inference": "NOT_ESTIMATED: no survey variance, covariance, confidence intervals or p-values.",
+  "rounding_note": "Conditional on nearest 0.1 percentage-point rounding. Envelopes are not statistical confidence intervals.",
+  "contrasts": [
+    {
+      "numerator": "Information",
+      "denominator": "Finance and Insurance",
+      "difference_pp": "5.8",
+      "ratio": "1.171091445428",
+      "conditional_rounding_difference_pp": [
+        "5.70",
+        "5.90"
+      ],
+      "conditional_rounding_ratio": [
+        "1.167893961708",
+        "1.174298375185"
+      ]
+    },
+    {
+      "numerator": "Information",
+      "denominator": "National",
+      "difference_pp": "19.9",
+      "ratio": "2.005050505051",
+      "conditional_rounding_difference_pp": [
+        "19.80",
+        "20.00"
+      ],
+      "conditional_rounding_ratio": [
+        "1.997481108312",
+        "2.012658227848"
+      ]
+    },
+    {
+      "numerator": "Finance and Insurance",
+      "denominator": "National",
+      "difference_pp": "14.1",
+      "ratio": "1.712121212121",
+      "conditional_rounding_difference_pp": [
+        "14.00",
+        "14.20"
+      ],
+      "conditional_rounding_ratio": [
+        "1.705289672544",
+        "1.728987341772"
+      ]
+    }
+  ]
+}
