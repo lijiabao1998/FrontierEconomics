@@ -122,10 +122,11 @@
     "problems/ECON-001/experiments/independent_20261011/reference/runs/20261009T115523985642Z-gpt-ECON-001/source-extract.json": "b209468564207f7f29c9d56aaaab831775b951eb1436bf0f076496629ec71cae",
     "problems/ECON-001/experiments/independent_20261011/reference/STATUS.md": "603d63ba4be9760d9c6fbf62042ee515328e3ebde8237d34d5b3080de9ee27ff",
     "problems/ECON-001/experiments/independent_20261011/reference/VALIDATION.md": "ccc96266a510bc218f9c205e61c54d35397f5c81b1e4ef14a5096d8407f2d929",
-    "problems/ECON-001/experiments/independent_20261011/run_bounded.py": "ed0a14659c7e5c1f9ba0d12890a250dd94d7a13b37c41c1b26b8a79a6d70c442",
+    "problems/ECON-001/experiments/independent_20261011/run_bounded.py": "ca43afe0e3cfda5f615fe2f05f5d3d00782a16999e48e2b5ced8db72fb8e86a6",
     "problems/ECON-001/experiments/independent_20261011/SOURCE_MANIFEST.json": "d9a97f360f5323347ee69ec38e5fed87143045d0494fb78b810b69641d1700ef",
     "problems/ECON-001/experiments/independent_20261011/verify.py": "902346e04e759ef274a26888a08462ec13aa5c1ec3a4488cd8f7d05e193df71b",
     "problems/ECON-001/experiments/independent_20261011/WEB_TRACE.json": "9e0289c4620b423a3a9f97c0d23a63bdd8a5e8f8402155cf362b99118fedb3f4"
   },
-  "admitted_at": "2026-10-11T19:10:54.664577+00:00"
+  "admitted_at": "2026-10-11T19:10:54.664577+00:00",
+  "launcher_static_review_fix": "Bound termination cleanup; re-evaluate absolute deadline immediately before Popen/wait. No scientific evaluator or input change, no execution yet."
 }
